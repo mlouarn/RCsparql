@@ -1,0 +1,20 @@
+#Finding all targets of a specific TF in a given Tissue
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX user: <http://regulatorycircuits.org/data/>
+PREFIX graph: <http://regulatorycircuits.org/graph/>
+PREFIX rco: <http://regulatorycircuits.org/ontology/>
+
+SELECT DISTINCT ?tf ?gene ?score
+ WHERE {
+  VALUES ?g {graph:TISSUE}
+  VALUES ?tf {user:TF}
+  ?gene rdf:type user:gene .
+    GRAPH ?g {
+      ?rP rco:fromTF ?tf.
+      ?rP rco:fromGene ?gene .
+      ?rP rco:score ?score .
+    }
+}
