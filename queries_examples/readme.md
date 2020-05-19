@@ -1,0 +1,9 @@
+# Examples of queries
+
+In this section, we give examples of queries that can be run on the data-set we propose.
+Those queries were designed to answer biological questions and can be modified to better answer specific biological demands.
+
+| Query | Purpose |
+|---|---|
+|comparing_target.rq| Compare the TF-Gene relations and their score, for a given TF across two Tissues |
+|finding_target.rq| To find the target of a specific TF in a given Tissue |
