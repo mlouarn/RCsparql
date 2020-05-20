@@ -1,0 +1,34 @@
+#Comparing common regulator of two genes in two tissues
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX user: <http://regulatorycircuits.org/data/>
+PREFIX graph: <http://regulatorycircuits.org/graph/>
+PREFIX rco: <http://regulatorycircuits.org/ontology/>
+
+SELECT DISTINCT ?tf ?gene ?score_Tissue1 ?score_Tissue2
+ WHERE {
+  VALUES ?g1 {graph:TISSUE1}
+  VALUES ?g2 {graph:TISSUE2}
+  VALUES ?gene {user:GENE1 user:GENE2}
+  ?tf rdf:type user:tf .
+  OPTIONAL {
+    GRAPH ?g1 {
+      ?rP rco:fromTF ?tf.
+      ?rP rco:fromGene ?gene .
+      ?rP rco:weightP ?score_1 .
+    }
+}
+BIND (IF(bound(?score_1), ?score_1, "0.0"^^xsd:float) AS ?score_Tissue1) .
+  OPTIONAL {
+    GRAPH ?g2 {
+      ?rP rco:fromTF ?tf.
+      ?rP rco:fromGene ?gene .
+      ?rP rco:weightP ?score_2 .
+    }
+}
+BIND (IF(bound(?score_2), ?score_2, "0.0"^^xsd:float) AS ?score_Tissue2) .
+BIND (xsd:float(xsd:float(?score_Tissue1) + xsd:float(?score_Tissue2)) AS ?result)
+FILTER (?result >0)
+}
