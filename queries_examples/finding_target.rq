@@ -9,8 +9,8 @@ PREFIX rco: <http://regulatorycircuits.org/data/>
 
 SELECT DISTINCT ?tf ?gene ?score
  WHERE {
-  VALUES ?g {graph:TISSUE}
-  VALUES ?tf {user:TF}
+  VALUES ?g {graph:b_cell_line} #Change b_cell_line to any other Tissue or Sample
+  VALUES ?tf {user:SOX2} #SOX2 can be changed to any other TF in data
   ?gene rdf:type user:gene .
     GRAPH ?g {
       ?rP rco:fromTF ?tf.
