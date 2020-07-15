@@ -5,7 +5,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX user: <http://regulatorycircuits.org/data/>
 PREFIX graph: <http://regulatorycircuits.org/graph/>
-PREFIX rco: <http://regulatorycircuits.org/ontology/>
+PREFIX rco: <http://regulatorycircuits.org/data/>
 
 SELECT DISTINCT ?tf ?gene ?score
  WHERE {
