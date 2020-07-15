@@ -9,9 +9,9 @@ PREFIX rco: <http://regulatorycircuits.org/data/>
 
 SELECT DISTINCT ?tf ?gene ?score_Tissue1 ?score_Tissue2
  WHERE {
-  VALUES ?g1 {graph:TISSUE1}
-  VALUES ?g2 {graph:TISSUE2}
-  VALUES ?gene {user:GENE1 user:GENE2}
+  VALUES ?g1 {graph:anaplastic_carcinoma_cell_line} #can be change to any other Tissue graph
+  VALUES ?g2 {graph:anaplastic_large_cell_lymphoma_cell_line} #can be change to any other Tissue graph
+  VALUES ?gene {user:C16orf58 user:IRF1} #C16orf58 and IRF1 can be change to any other genes
   ?tf rdf:type user:tf .
   OPTIONAL {
     GRAPH ?g1 {
