@@ -14,7 +14,7 @@ INSERT {
   }
 }
 WHERE {
-  rc:TISSUE rco:isComposedOf ?sample .
+  rc:CD14+_Monocytes rco:isComposedOf ?sample .
   ?sample rc:tissue rc:blood .
   ?sample rc:patient [ rc:gender pato:Male ;
                        rc:age ?age ] .
