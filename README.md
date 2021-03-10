@@ -15,3 +15,4 @@ Change for tissues names:
 |")"|""| 
 |"'"|""| 
 |"."|"-"| 
+|"+"|"p"| 
