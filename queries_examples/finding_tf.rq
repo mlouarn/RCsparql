@@ -2,8 +2,8 @@ PREFIX rc: <http://regulatorycircuits.org/data/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-SELECT DISTINCT ?tf  #Change tf to any other entitie name of the Biological data graph
+SELECT DISTINCT ?tf  #Change tf to any other entitie name of the Biological data graph here and in the following query
 WHERE {
     ?tf_uri rdf:type rc:tf .
-    ?tf_uri rdfs:label ?tf1_Label .
+    ?tf_uri rdfs:label ?tf .
 }
