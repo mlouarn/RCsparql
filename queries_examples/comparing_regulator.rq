@@ -17,7 +17,7 @@ SELECT DISTINCT ?tf ?gene ?score_Tissue1 ?score_Tissue2
     GRAPH ?g1 {
       ?rP rco:fromTF ?tf.
       ?rP rco:fromGene ?gene .
-      ?rP rco:weightP ?score_1 .
+      ?rP rco:scoreRC ?score_1 . #change scoreRC to score for the recomputed score using max
     }
 }
 BIND (IF(bound(?score_1), ?score_1, "0.0"^^xsd:float) AS ?score_Tissue1) .
@@ -25,7 +25,7 @@ BIND (IF(bound(?score_1), ?score_1, "0.0"^^xsd:float) AS ?score_Tissue1) .
     GRAPH ?g2 {
       ?rP rco:fromTF ?tf.
       ?rP rco:fromGene ?gene .
-      ?rP rco:weightP ?score_2 .
+      ?rP rco:scoreRC ?score_2 . #change scoreRC to score for the recomputed score using max
     }
 }
 BIND (IF(bound(?score_2), ?score_2, "0.0"^^xsd:float) AS ?score_Tissue2) .
