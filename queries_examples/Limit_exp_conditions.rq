@@ -1,1 +1,11 @@
+prefix rc: <http://regulatorycircuits.org/data/>
+prefix rcg: <http://regulatorycircuits.org/graph/>
+prefix rco: <http://regulatorycircuits.org/ontology/>
 
+SELECT DISTINCT ?sample
+WHERE {
+  rc:CD14pos_Monocytes rco:tissueComposedOf ?sample .
+  ?sample rco:sampleInTissue rc:blood .
+  ?sample rco:sampledInPatient [ rco:age ?age ] .
+  FILTER ( ?age > "55")
+}
