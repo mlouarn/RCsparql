@@ -1,0 +1,8 @@
+prefix rc: <http://regulatorycircuits.org/data/>
+prefix rcg: <http://regulatorycircuits.org/graph/>
+prefix rco: <http://regulatorycircuits.org/ontology/>
+
+SELECT DISTINCT ?tissue ?sample
+WHERE {
+  ?tissue rco:tissueComposedOf ?sample .
+}
