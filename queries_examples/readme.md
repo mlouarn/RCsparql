@@ -10,4 +10,5 @@ Those queries were designed to answer biological questions and can be modified t
 |comparing_target.rq| Compare the TF-Gene relations and their score, for a given TF across two Tissues |
 |finding_target.rq| To find the target of a specific TF in a given Tissue |
 |comparing_regulator.rq | Compare the regulator and their regulation score, for two given Genes across two Tissues |
+|tissues_samples.rq| Give the list of tissues dans their corresponding samples
 |Limit_exp_conditions.rq| Get the name of the samples limited to a Tissue for patient over 55yo | 
