@@ -4,5 +4,5 @@ prefix rco: <http://regulatorycircuits.org/ontology/>
 
 SELECT DISTINCT ?tissue ?sample
 WHERE {
-  ?tissue rco:tissueComposedOf ?sample .
+  ?tissue rco:tissueComposedOf ?sample . #To search a sigular Tissue change "?tissue" to rc:NAME_TISSUE here and remove it from the SELECT line
 }
