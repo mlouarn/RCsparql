@@ -2,9 +2,15 @@ prefix rc: <http://regulatorycircuits.org/data/>
 prefix rcg: <http://regulatorycircuits.org/graph/>
 prefix rco: <http://regulatorycircuits.org/ontology/>
 
-SELECT DISTINCT ?sample ?biological_tissue ?age
+SELECT DISTINCT ?sample ?cell_type ?biological_tissue ?xrefIdent ?age ?gender ?developmental_stage
 WHERE {
   rc:CD14pos_Monocytes rco:tissueComposedOf ?sample . #change CD14pos_Monocytes to any other tissue
+  ?sample rco:xref [ rco:xrefIdent ?xrefIdent ].
   ?sample rco:sampleInTissue ?biological_tissue .
-  ?sample rco:sampledInPatient [ rco:age ?age ] .
+  ?sample rco:sampledInCellType ?cell_type .
+	OPTIONAL {
+	  ?sample rco:sampledInPatient [ rco:age ?age ;
+					rco:gender ?gender;
+					rco:developmentalStage ?developmental_stage ] .
+	}
 }
