@@ -3,29 +3,28 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX user: <http://regulatorycircuits.org/data/>
-PREFIX graph: <http://regulatorycircuits.org/graph/>
-PREFIX rco: <http://regulatorycircuits.org/data/>
+PREFIX rc: <http://regulatorycircuits.org/data/>
+PREFIX rcg: <http://regulatorycircuits.org/graph/>
 
 SELECT DISTINCT ?tf ?gene ?score_Tissue1 ?score_Tissue2
  WHERE {
-  VALUES ?g1 {graph:anaplastic_carcinoma_cell_line} #can be change to any other Tissue graph
-  VALUES ?g2 {graph:anaplastic_large_cell_lymphoma_cell_line} #can be change to any other Tissue graph
-  VALUES ?gene {user:C16orf58 user:IRF1} #C16orf58 and IRF1 can be change to any other genes
-  ?tf rdf:type user:tf .
+  VALUES ?g1 {rcg:anaplastic_carcinoma_cell_line} #can be change to any other Tissue graph
+  VALUES ?g2 {rcg:anaplastic_large_cell_lymphoma_cell_line} #can be change to any other Tissue graph
+  VALUES ?gene {rc:C16orf58 rc:IRF1} #C16orf58 and IRF1 can be change to any other genes
+  ?tf rdf:type rc:tf .
   OPTIONAL {
     GRAPH ?g1 {
-      ?rP rco:fromTF ?tf.
-      ?rP rco:fromGene ?gene .
-      ?rP rco:scoreRC ?score_1 . #change scoreRC to score for the recomputed score using max
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:scoreRC ?score_1 . #change scoreRC to score for the recomputed score using max
     }
 }
 BIND (IF(bound(?score_1), ?score_1, "0.0"^^xsd:float) AS ?score_Tissue1) .
   OPTIONAL {
     GRAPH ?g2 {
-      ?rP rco:fromTF ?tf.
-      ?rP rco:fromGene ?gene .
-      ?rP rco:scoreRC ?score_2 . #change scoreRC to score for the recomputed score using max
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:scoreRC ?score_2 . #change scoreRC to score for the recomputed score using max
     }
 }
 BIND (IF(bound(?score_2), ?score_2, "0.0"^^xsd:float) AS ?score_Tissue2) .
