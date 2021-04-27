@@ -1,21 +1,20 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX user: <http://regulatorycircuits.org/data/>
-PREFIX graph: <http://regulatorycircuits.org/graph/>
-PREFIX rco: <http://regulatorycircuits.org/data/>
+PREFIX rcg: <http://regulatorycircuits.org/graph/>
+PREFIX rc: <http://regulatorycircuits.org/data/>
 
 SELECT DISTINCT ?tf ?gene ?score
  WHERE {
-  VALUES ?g1 {graph:anaplastic_carcinoma_cell_line} #anaplastic_carcinoma_cell_line can be changed to any other Tissue or Sample, see dictionary for names
-  ?tf rdf:type user:tf .
-  ?gene rdf:type user:gene .
+  VALUES ?g1 {rcg:anaplastic_carcinoma_cell_line} #anaplastic_carcinoma_cell_line can be changed to any other Tissue or Sample, see dictionary for names
+  ?tf rdf:type rc:tf .
+  ?gene rdf:type rc:gene .
     GRAPH ?g1 {
-      ?rP rco:fromTF ?tf.
-      ?rP rco:fromGene ?gene .
-      ?rP rco:weightP ?weightP .
-      ?rP rco:weightE ?weightE .
-      ?rP rco:score ?score . #remove this line for sample
-      ?rP rco:scoreRC ?scoreRC . #remove this line for sample
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:weightP ?weightP .
+      ?rP rc:weightE ?weightE .
+      ?rP rc:score ?score . #remove this line for sample
+      ?rP rc:scoreRC ?scoreRC . #remove this line for sample
     }
 }
