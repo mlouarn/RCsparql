@@ -1,0 +1,115 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rcg: <http://regulatorycircuits.org/graph/>
+PREFIX rc: <http://regulatorycircuits.org/data/>
+
+INSERT {
+  GRAPH rcg:TISSUE {
+    _:idRel rc:fromTF ?tf .
+    _:idRel rc:fromGene ?gene .
+    _:idRel rc:weightP ?Wp .
+    _:idRel rc:weightE ?We .
+    _:idRel rc:score ?score .
+  }
+}
+WHERE {
+  VALUES ?g1 {rcg:SAMPLE1}
+  VALUES ?g2 {rcg:SAMPLE2}
+  VALUES ?g3 {rcg:SAMPLE3}
+  VALUES ?g4 {rcg:SAMPLE4}
+  VALUES ?g5 {rcg:SAMPLE5}
+  ?tf rdf:type rc:tf .
+  ?gene rdf:type rc:gene .
+  OPTIONAL {
+    GRAPH ?g1 {
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:weightP ?weightP1 .
+    }
+  }
+BIND (IF(bound(?weightP1), ?weightP1, "0.0"^^xsd:float) AS ?Wp1) .
+  OPTIONAL {
+    GRAPH ?g1 {
+      ?rE rc:fromTF ?tf.
+      ?rE rc:fromGene ?gene .
+      ?rE rc:weightE ?weightE1 .
+    }
+  }
+BIND (IF(bound(?weightE1), ?weightE1, "0.0"^^xsd:float) AS ?We1) .
+  OPTIONAL {
+    GRAPH ?g2 {
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:weightP ?weightP2 .
+    }
+  }
+BIND (IF(bound(?weightP2), ?weightP2, "0.0"^^xsd:float) AS ?Wp2) .
+  OPTIONAL {
+    GRAPH ?g2 {
+      ?rE rc:fromTF ?tf.
+      ?rE rc:fromGene ?gene .
+      ?rE rc:weightE ?weightE2 .
+    }
+  }
+BIND (IF(bound(?weightE2), ?weightE2, "0.0"^^xsd:float) AS ?We2) .
+  OPTIONAL {
+    GRAPH ?g3 {
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:weightP ?weightP3 .
+    }
+  }
+BIND (IF(bound(?weightP3), ?weightP3, "0.0"^^xsd:float) AS ?Wp3) .
+  OPTIONAL {
+    GRAPH ?g3 {
+      ?rE rc:fromTF ?tf.
+      ?rE rc:fromGene ?gene .
+      ?rE rc:weightE ?weightE3 .
+    }
+  }
+BIND (IF(bound(?weightE3), ?weightE3, "0.0"^^xsd:float) AS ?We3) .
+  OPTIONAL {
+    GRAPH ?g4 {
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:weightP ?weightP4 .
+    }
+  }
+BIND (IF(bound(?weightP4), ?weightP4, "0.0"^^xsd:float) AS ?Wp4) .
+  OPTIONAL {
+    GRAPH ?g4 {
+      ?rE rc:fromTF ?tf.
+      ?rE rc:fromGene ?gene .
+      ?rE rc:weightE ?weightE4 .
+    }
+  }
+BIND (IF(bound(?weightE4), ?weightE4, "0.0"^^xsd:float) AS ?We4) .
+  OPTIONAL {
+    GRAPH ?g5 {
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:weightP ?weightP5 .
+    }
+  }
+BIND (IF(bound(?weightP5), ?weightP5, "0.0"^^xsd:float) AS ?Wp5) .
+  OPTIONAL {
+    GRAPH ?g5 {
+      ?rE rc:fromTF ?tf.
+      ?rE rc:fromGene ?gene .
+      ?rE rc:weightE ?weightE5 .
+    }
+  }
+BIND (IF(bound(?weightE5), ?weightE5, "0.0"^^xsd:float) AS ?We5) .
+
+BIND (IF((?We1 > ?We2),?We1, ?We2) AS ?WeA)
+BIND (IF((?Wp1 > ?Wp2),?Wp1, ?Wp2) AS ?WpA)
+BIND (IF((?WeA > ?We3),?WeA, ?We3) AS ?WeB)
+BIND (IF((?WpA > ?Wp3),?WpA, ?Wp3) AS ?WpB)
+BIND (IF((?WeB > ?We4),?WeB, ?We4) AS ?WeC)
+BIND (IF((?WpB > ?Wp4),?WpB, ?Wp4) AS ?WpC)
+BIND (IF((?WeC > ?We5),?WeC, ?We5) AS ?We)
+BIND (IF((?WpC > ?Wp5),?WpC, ?Wp5) AS ?Wp)
+BIND (IF((?We > ?Wp),?We, ?Wp) AS ?score)
+FILTER (?score >0)
+}
