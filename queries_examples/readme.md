@@ -7,6 +7,7 @@ Those queries were designed to answer biological questions and can be modified t
 |---|---|
 |finding_tf.rq|Extract the tfs in the biological data graph (or any other entities)|
 |extract_network.rq| Extract the relations TF-Gene (and its weight and scores) for a given Tissue or Sample|
+|compute_network_2samples.rq| Extract the union of the relations TF-Gene for 2 given Tissues or Samples |
 |comparing_target.rq| Compare the TF-Gene relations and their score, for a given TF across two Tissues |
 |finding_target.rq| To find the target of a specific TF in a given Tissue |
 |comparing_regulator.rq | Compare the regulator and their regulation score, for two given Genes across two Tissues |
