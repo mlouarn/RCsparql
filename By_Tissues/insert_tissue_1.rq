@@ -1,0 +1,39 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rcg: <http://regulatorycircuits.org/graph/>
+PREFIX rc: <http://regulatorycircuits.org/data/>
+
+INSERT {
+  GRAPH rcg:TISSUE {
+    _:idRel rc:fromTF ?tf .
+    _:idRel rc:fromGene ?gene .
+    _:idRel rc:weightP ?Wp .
+    _:idRel rc:weightE ?We .
+    _:idRel rc:score ?score .
+  }
+}
+WHERE {
+  VALUES ?g1 {rcg:SAMPLE1}
+  ?tf rdf:type rc:tf .
+  ?gene rdf:type rc:gene .
+  OPTIONAL {
+    GRAPH ?g1 {
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:weightP ?weightP1 .
+    }
+  }
+BIND (IF(bound(?weightP1), ?weightP1, "0.0"^^xsd:float) AS ?Wp) .
+  OPTIONAL {
+    GRAPH ?g1 {
+      ?rE rc:fromTF ?tf.
+      ?rE rc:fromGene ?gene .
+      ?rE rc:weightE ?weightE1 .
+    }
+  }
+BIND (IF(bound(?weightE1), ?weightE1, "0.0"^^xsd:float) AS ?We) .
+
+BIND (IF((?We > ?Wp),?We, ?Wp) AS ?score)
+FILTER (?score >0)
+}
