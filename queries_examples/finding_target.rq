@@ -3,18 +3,17 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX user: <http://regulatorycircuits.org/data/>
-PREFIX graph: <http://regulatorycircuits.org/graph/>
-PREFIX rco: <http://regulatorycircuits.org/data/>
+PREFIX rcg: <http://regulatorycircuits.org/graph/>
+PREFIX rc: <http://regulatorycircuits.org/data/>
 
 SELECT DISTINCT ?tf ?gene ?score
  WHERE {
-  VALUES ?g {graph:b_cell_line} #Change b_cell_line to any other Tissue or Sample
-  VALUES ?tf {user:SOX2} #SOX2 can be changed to any other TF in data
-  ?gene rdf:type user:gene .
+  VALUES ?g {rcg:b_cell_line} #Change b_cell_line to any other Tissue or Sample
+  VALUES ?tf {rc:SOX2} #SOX2 can be changed to any other TF in data
+  ?gene rdf:type rc:gene .
     GRAPH ?g {
-      ?rP rco:fromTF ?tf.
-      ?rP rco:fromGene ?gene .
-      ?rP rco:score ?score .
+      ?rP rc:fromTF ?tf.
+      ?rP rc:fromGene ?gene .
+      ?rP rc:score ?score .
     }
 }
