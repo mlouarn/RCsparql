@@ -1,15 +1,15 @@
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX user: <http://www.semanticweb.org/user/ontologies/2018/1#>
-PREFIX : <http://www.semanticweb.org/user/ontologies/2018/1#>
+PREFIX rcg: <http://regulatorycircuits.org/graph/>
+PREFIX rc: <http://regulatorycircuits.org/data/>
 
 
 INSERT {
-  GRAPH user:SAMPLE {
-    _:idRel user:fromTF ?tf_uri .
-    _:idRel user:fromGene ?gene_uri .
-    _:idRel user:weightP ?max_weightP .
+  GRAPH rcg:SAMPLE {
+    _:idRel rc:fromTF ?tf_uri .
+    _:idRel rc:fromGene ?gene_uri .
+    _:idRel rc:weightP ?max_weightP .
   }
 }
 
@@ -17,28 +17,28 @@ INSERT {
 WHERE {
 SELECT ?tf_uri ?gene_uri (max (?weightP) AS ?max_weightP)
 WHERE {
-    ?tf_uri user:inclu ?tf_promoter_uri .
-    ?tf_promoter_uri user:in ?promoter_uri .
-    ?promoter_transcript_uri user:nextto ?promoter_uri .
-    ?transcript_uri user:nextto ?promoter_transcript_uri .
-    ?transcript_gene_uri user:istranscript ?transcript_uri .
-    ?gene_uri user:isgene ?transcript_gene_uri .
-    ?tf_uri rdf:type user:tf .
+    ?tf_uri rc:inclu ?tf_promoter_uri .
+    ?tf_promoter_uri rc:in ?promoter_uri .
+    ?promoter_transcript_uri rc:nextto ?promoter_uri .
+    ?transcript_uri rc:nextto ?promoter_transcript_uri .
+    ?transcript_gene_uri rc:istranscript ?transcript_uri .
+    ?gene_uri rc:isgene ?transcript_gene_uri .
+    ?tf_uri rdf:type rc:tf .
     ?tf_uri rdfs:label ?tf_Label .
-    ?tf_promoter_uri rdf:type user:tf_promoter .
+    ?tf_promoter_uri rdf:type rc:tf_promoter .
     ?tf_promoter_uri rdfs:label ?tf_promoter_Label .
-    ?tf_promoter_uri user:confidence ?tf_promoter_confidence .
-    ?promoter_uri rdf:type user:promoter .
+    ?tf_promoter_uri rc:confidence ?tf_promoter_confidence .
+    ?promoter_uri rdf:type rc:promoter .
     ?promoter_uri rdfs:label ?promoter_Label .
-    ?promoter_uri user:SAMPLE ?promoter_SAMPLE .
-    ?promoter_transcript_uri rdf:type user:promoter_transcript .
+    ?promoter_uri rc:SAMPLE ?promoter_SAMPLE .
+    ?promoter_transcript_uri rdf:type rc:promoter_transcript .
     ?promoter_transcript_uri rdfs:label ?promoter_transcript_Label .
-    ?transcript_uri rdf:type user:transcript .
+    ?transcript_uri rdf:type rc:transcript .
     ?transcript_uri rdfs:label ?transcript_Label .
-    ?transcript_uri user:SAMPLE ?transcript_SAMPLE .
-    ?transcript_gene_uri rdf:type user:transcript_gene .
+    ?transcript_uri rc:SAMPLE ?transcript_SAMPLE .
+    ?transcript_gene_uri rdf:type rc:transcript_gene .
     ?transcript_gene_uri rdfs:label ?transcript_gene_Label .
-    ?gene_uri rdf:type user:gene .
+    ?gene_uri rdf:type rc:gene .
     ?gene_uri rdfs:label ?gene_Label .
     BIND (xsd:float(?tf_promoter_confidence) * xsd:float(?tf_promoter_confidence) * xsd:float(?promoter_SAMPLE) * xsd:float(?promoter_SAMPLE) AS ?weightP).
     FILTER ( ?weightP > 0 )
