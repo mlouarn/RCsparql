@@ -1,0 +1,100 @@
+digraph G {
+	rankdir=BT
+	"rc-Promoter" [label="Promoter
+rc:Promoter" color=black fontcolor=black shape=box]
+	"-Tissue" [label="Anatomical tissue
+:Tissue" color=black fontcolor=black shape=box]
+	"rc-Transcript" [label="Transcript
+rc:Transcript" color=black fontcolor=black shape=box]
+	"rc-enhancer_transcript" [label="Enhancer-Transcript relation
+rc:enhancer_transcript" color=black fontcolor=black shape=box]
+	"rc-tf_promoter" [label="TF-Promoter relation
+rc:tf_promoter" color=black fontcolor=black shape=box]
+	"-tf_gene" [label="TF-Gene relation
+:tf_gene" color=black fontcolor=black shape=box]
+	"rc-Gene" [label="Gene
+rc:Gene" color=black fontcolor=black shape=box]
+	"-ExternalSource" [label="External source
+:ExternalSource" color=black fontcolor=black shape=box]
+	"-SampleCategory" [label="Sample category
+:SampleCategory" color=black fontcolor=black shape=box]
+	"-AnatomicalCellType" [label="Anatomical cell type
+:AnatomicalCellType" color=black fontcolor=black shape=box]
+	"-SampleSpecificDataset" [label="Sample-specific dataset
+:SampleSpecificDataset" color=black fontcolor=black shape=box]
+	"rc-promoter_transcript" [label="Promoter-Transcript relation
+rc:promoter_transcript" color=black fontcolor=black shape=box]
+	"rc-Regulator" [label="Regulator
+rc:Regulator" color=black fontcolor=black shape=box]
+	"-TissueSpecificCircuit" [label="Tissue-specific circuit
+:TissueSpecificCircuit" color=black fontcolor=black shape=box]
+	"rc-TF" [label="Transcription factor
+rc:TF" color=black fontcolor=black shape=box]
+	"-ReifiedRelation" [label="Reified relation
+:ReifiedRelation" color=black fontcolor=black shape=box]
+	"-regulator_transcript" [label="Regulator-Transcript relation
+:regulator_transcript" color=black fontcolor=black shape=box]
+	"rc-Enhancer" [label="Enhancer
+rc:Enhancer" color=black fontcolor=black shape=box]
+	"-CellLinesSample" [label="Cell lines sample
+:CellLinesSample" color=black fontcolor=black shape=box]
+	"-tf_regulator" [label="TF-Regulator relation
+:tf_regulator" color=black fontcolor=black shape=box]
+	"rc-tf_enhancer" [label="TF-Enhancer relation
+rc:tf_enhancer" color=black fontcolor=black shape=box]
+	"-PrimaryCellsSample" [label="Primary cells sample
+:PrimaryCellsSample" color=black fontcolor=black shape=box]
+	"-TissueSpecificDataset" [label="Tissue-specific dataset
+:TissueSpecificDataset" color=black fontcolor=black shape=box]
+	"-TissuesSample" [label="Tissues sample
+:TissuesSample" color=black fontcolor=black shape=box]
+	"-Sample" [label="Sample
+:Sample" color=black fontcolor=black shape=box]
+	"rc-transcript_gene" [label="Transcript-Gene relation
+rc:transcript_gene" color=black fontcolor=black shape=box]
+	"rc-tf_enhancer" -> "-tf_regulator" [arrowhead=onormal]
+	"-TissueSpecificDataset" -> "void-Dataset" [arrowhead=onormal]
+	"-regulator_transcript" -> "-ReifiedRelation" [arrowhead=onormal]
+	"rc-Promoter" -> "rc-Regulator" [arrowhead=onormal]
+	"-tf_regulator" -> "-ReifiedRelation" [arrowhead=onormal]
+	"rc-enhancer_transcript" -> "-regulator_transcript" [arrowhead=onormal]
+	"rc-promoter_transcript" -> "-regulator_transcript" [arrowhead=onormal]
+	"rc-tf_promoter" -> "-tf_regulator" [arrowhead=onormal]
+	"-SampleSpecificDataset" -> "void-Dataset" [arrowhead=onormal]
+	"-tf_gene" -> "-ReifiedRelation" [arrowhead=onormal]
+	"rc-Enhancer" -> "rc-Regulator" [arrowhead=onormal]
+	"-PrimaryCellsSample" -> "-SampleCategory" [arrowhead=onormal]
+	"rc-transcript_gene" -> "-ReifiedRelation" [arrowhead=onormal]
+	"-CellLinesSample" -> "-SampleCategory" [arrowhead=onormal]
+	"-TissuesSample" -> "-SampleCategory" [arrowhead=onormal]
+	"-tf_regulator" -> "rc-Regulator" [label=in]
+	"-Sample" -> "-SampleCategory" [label=None]
+	"rc-Transcript" -> "rc-transcript_gene" [label="is transcript"]
+	"-Xref" -> "-ExternalSource" [label="has external source"]
+	"rc-TF" -> "-tf_regulator" [label=inclu]
+	"-Sample" -> "-Tissue" [label="sample in tissue"]
+	"-Sample" -> "-AnatomicalCellType" [label="sampled in cell type"]
+	"-TissueSpecificCircuit" -> "-Sample" [label="tissue is composed of"]
+	"rc-transcript_gene" -> "rc-Gene" [label="is gene"]
+	"-regulator_transcript" -> "rc-Transcript" [label="next to"]
+	"str1624009979.8697567" [label="xsd:float" color=black fontcolor=black shape=box style=rounded]
+	"-tf_gene" -> "str1624009979.8697567" [label="weight of enhancer"]
+	"str1624009979.8705966" [label="xsd:float" color=black fontcolor=black shape=box style=rounded]
+	"rc-Regulator" -> "str1624009979.8705966" [label=expression]
+	"str1624009979.8714488" [label="xsd:string" color=black fontcolor=black shape=box style=rounded]
+	"rc-TF" -> "str1624009979.8714488" [label=motif]
+	"str1624009979.8722968" [label="xsd:string" color=black fontcolor=black shape=box style=rounded]
+	"rc-TF" -> "str1624009979.8722968" [label=description]
+	"str1624009979.8731472" [label="xsd:float" color=black fontcolor=black shape=box style=rounded]
+	"rc-enhancer_transcript" -> "str1624009979.8731472" [label="weight distance"]
+	"str1624009979.8739877" [label="xsd:float" color=black fontcolor=black shape=box style=rounded]
+	"-tf_gene" -> "str1624009979.8739877" [label="weight of promoter"]
+	"str1624009979.8750312" [label="xsd:float" color=black fontcolor=black shape=box style=rounded]
+	"-tf_gene" -> "str1624009979.8750312" [label=score]
+	"str1624009979.8756428" [label="xsd:float" color=black fontcolor=black shape=box style=rounded]
+	"-tf_regulator" -> "str1624009979.8756428" [label=score]
+	"str1624009979.8774576" [label="xsd:string" color=black fontcolor=black shape=box style=rounded]
+	"-Xref" -> "str1624009979.8774576" [label="has identifier in external source"]
+	"str1624009979.8783572" [label="xsd:float" color=black fontcolor=black shape=box style=rounded]
+	"-regulator_transcript" -> "str1624009979.8783572" [label=distance]
+}

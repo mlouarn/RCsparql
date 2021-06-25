@@ -1,0 +1,584 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://regulatorycircuits.org/ontology/"
+     xml:base="http://regulatorycircuits.org/ontology/"
+     xmlns:rc="http://regulatorycircuits.org/data/"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:void="http://rdfs.org/ns/void#">
+    <owl:Ontology rdf:about="http://regulatorycircuits.org/ontology/">
+        <rdfs:label xml:lang="en">Regulatory Circuits ontology</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.5</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://regulatorycircuits.org/data/in -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/data/in">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/tf_regulator"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/data/Regulator"/>
+        <rdfs:label>in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/inclu -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/data/inclu">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/data/TF"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/ontology/tf_regulator"/>
+        <rdfs:label>inclu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/isgene -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/data/isgene">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/data/transcript_gene"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/data/Gene"/>
+        <rdfs:label>is gene</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/istranscript -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/data/istranscript">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/data/Transcript"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/data/transcript_gene"/>
+        <rdfs:label>is transcript</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/nextto -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/data/nextto">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/regulator_transcript"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/data/Transcript"/>
+        <rdfs:label>next to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/hasSampleCategory -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/ontology/hasSampleCategory">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/Sample"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/ontology/SampleCategory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/sampleInTissue -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/ontology/sampleInTissue">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/Sample"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/ontology/Tissue"/>
+        <rdfs:label>sample in tissue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/sampledInCellType -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/ontology/sampledInCellType">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/Sample"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/ontology/AnatomicalCellType"/>
+        <rdfs:label>sampled in cell type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/tissueComposedOf -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/ontology/tissueComposedOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/TissueSpecificCircuit"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/ontology/Sample"/>
+        <rdfs:label>tissue is composed of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/xref -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/ontology/xref">
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/ontology/Xref"/>
+        <rdfs:label>has external reference to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/xrefSource -->
+
+    <owl:ObjectProperty rdf:about="http://regulatorycircuits.org/ontology/xrefSource">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/Xref"/>
+        <rdfs:range rdf:resource="http://regulatorycircuits.org/ontology/ExternalSource"/>
+        <rdfs:label>has external source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://regulatorycircuits.org/data/confidence -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/confidence">
+        <rdfs:label>confidence</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/description -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/description">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/data/TF"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/distance -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/distance">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/regulator_transcript"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>distance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/expression -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/expression">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/data/Regulator"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>expression</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/motif -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/motif">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/data/TF"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>motif</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/rank -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/rank">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/data/Regulator"/>
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/data/Transcript"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:label>rank</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/score -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/score">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/ontology/tf_gene"/>
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/ontology/tf_regulator"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>score</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/weightDistance -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/weightDistance">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/data/enhancer_transcript"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>weight distance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/weightE -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/weightE">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/tf_gene"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>weight of enhancer</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/weightP -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/data/weightP">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/tf_gene"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>weight of promoter</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/xrefIdent -->
+
+    <owl:DatatypeProperty rdf:about="http://regulatorycircuits.org/ontology/xrefIdent">
+        <rdfs:domain rdf:resource="http://regulatorycircuits.org/ontology/Xref"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>has identifier in external source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://rdfs.org/ns/void#Dataset -->
+
+    <owl:Class rdf:about="http://rdfs.org/ns/void#Dataset"/>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/Enhancer -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/Enhancer">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/data/Regulator"/>
+        <owl:disjointWith rdf:resource="http://regulatorycircuits.org/data/Promoter"/>
+        <rdfs:label>Enhancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/Gene -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/Gene">
+        <rdfs:label>Gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/Promoter -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/Promoter">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/data/Regulator"/>
+        <rdfs:label>Promoter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/Regulator -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/Regulator">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/data/Enhancer"/>
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/data/Promoter"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="en">Abstract class encompassing enhancers and promoters</rdfs:comment>
+        <rdfs:label>Regulator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/TF -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/TF">
+        <rdfs:label>Transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/Transcript -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/Transcript">
+        <rdfs:label>Transcript</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/enhancer_transcript -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/enhancer_transcript">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/regulator_transcript"/>
+        <owl:disjointWith rdf:resource="http://regulatorycircuits.org/data/promoter_transcript"/>
+        <rdfs:label xml:lang="en">Enhancer-Transcript relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/promoter_transcript -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/promoter_transcript">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/regulator_transcript"/>
+        <rdfs:label xml:lang="en">Promoter-Transcript relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/tf_enhancer -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/tf_enhancer">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/tf_regulator"/>
+        <owl:disjointWith rdf:resource="http://regulatorycircuits.org/data/tf_promoter"/>
+        <rdfs:label xml:lang="en">TF-Enhancer relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/tf_promoter -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/tf_promoter">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/tf_regulator"/>
+        <rdfs:label xml:lang="en">TF-Promoter relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/data/transcript_gene -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/data/transcript_gene">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/ReifiedRelation"/>
+        <rdfs:label xml:lang="en">Transcript-Gene relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/AnatomicalCellType -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/AnatomicalCellType">
+        <rdfs:label>Anatomical cell type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/CellLinesSample -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/CellLinesSample">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/SampleCategory"/>
+        <rdfs:label>Cell lines sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/ExternalSource -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/ExternalSource">
+        <rdfs:label>External source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/Patient -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/Patient"/>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/PrimaryCellsSample -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/PrimaryCellsSample">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/SampleCategory"/>
+        <rdfs:label>Primary cells sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/ReifiedRelation -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/ReifiedRelation">
+        <rdfs:comment xml:lang="en">Placeholder for the classes representing reified relations.</rdfs:comment>
+        <rdfs:label>Reified relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/Sample -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/Sample">
+        <rdfs:label xml:lang="en">Sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/SampleCategory -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/SampleCategory">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/ontology/CellLinesSample"/>
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/ontology/PrimaryCellsSample"/>
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/ontology/TissuesSample"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label>Sample category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/SampleSpecificDataset -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/SampleSpecificDataset">
+        <rdfs:subClassOf rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+        <owl:disjointWith rdf:resource="http://regulatorycircuits.org/ontology/TissueSpecificDataset"/>
+        <rdfs:label>Sample-specific dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/Tissue -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/Tissue">
+        <rdfs:label>Anatomical tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/TissueSpecificCircuit -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/TissueSpecificCircuit">
+        <rdfs:label xml:lang="en">Tissue-specific circuit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/TissueSpecificDataset -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/TissueSpecificDataset">
+        <rdfs:subClassOf rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+        <rdfs:label>Tissue-specific dataset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/TissuesSample -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/TissuesSample">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/SampleCategory"/>
+        <rdfs:label>Tissues sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/Xref -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/Xref"/>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/regulator_transcript -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/regulator_transcript">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/data/enhancer_transcript"/>
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/data/promoter_transcript"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/ReifiedRelation"/>
+        <rdfs:label xml:lang="en">Regulator-Transcript relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/tf_gene -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/tf_gene">
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/ReifiedRelation"/>
+        <rdfs:label xml:lang="en">TF-Gene relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regulatorycircuits.org/ontology/tf_regulator -->
+
+    <owl:Class rdf:about="http://regulatorycircuits.org/ontology/tf_regulator">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/data/tf_enhancer"/>
+                    <rdf:Description rdf:about="http://regulatorycircuits.org/data/tf_promoter"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://regulatorycircuits.org/ontology/ReifiedRelation"/>
+        <rdfs:label xml:lang="en">TF-Regulator relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://regulatorycircuits.org/ontology/CellLinesSample"/>
+            <rdf:Description rdf:about="http://regulatorycircuits.org/ontology/PrimaryCellsSample"/>
+            <rdf:Description rdf:about="http://regulatorycircuits.org/ontology/TissuesSample"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
