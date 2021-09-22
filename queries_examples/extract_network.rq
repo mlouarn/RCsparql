@@ -4,7 +4,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX rcg: <http://regulatorycircuits.org/graph/>
 PREFIX rc: <http://regulatorycircuits.org/data/>
 
-SELECT DISTINCT ?tf ?gene ?score
+SELECT DISTINCT ?tf ?gene ?weightP ?weightE ?score ?scoreRC
  WHERE {
   VALUES ?g1 {rcg:anaplastic_carcinoma_cell_line} #anaplastic_carcinoma_cell_line can be changed to any other Tissue or Sample, see dictionary for names
   ?tf rdf:type rc:tf .
