@@ -1,0 +1,6 @@
+sample 	cell_type 	biological_tissue 	xrefIdent 	age 	gender 	developmental_stage
+CNhs10852 	monocyte 	blood	"FF:11224-116B9"	"47"	http://purl.obolibrary.org/obo/UBERON_0003101	"47 years old adult"
+CNhs11954 	monocyte 	blood	"FF:11305-117B9"	"57"	http://purl.obolibrary.org/obo/UBERON_0003101	"57 years old adult"
+CNhs11997 	monocyte 	blood	"FF:11381-118B4"	"53"	http://purl.obolibrary.org/obo/UBERON_0003101	"53 years old adult"
+CNhs13465 	monocyte 		"FF:11860-125A6"			
+CNhs13466 	monocyte 		"FF:11861-125A7"			
