@@ -6,8 +6,8 @@ PREFIX rc: <http://regulatorycircuits.org/data/>
 
 SELECT DISTINCT ?tf ?gene ?weightP ?weightE
 WHERE {
-  VALUES ?g1 {rcg:SAMPLE1}
-  VALUES ?g2 {rcg:SAMPLE2}
+  VALUES ?g1 {rcg:CNhs12494} #can be change to any other Sample graph
+  VALUES ?g2 {rcg:CNhs11371} #can be change to any other Sample graph
   ?tf rdf:type rc:tf .
   ?gene rdf:type rc:gene .
   OPTIONAL {
@@ -46,4 +46,6 @@ BIND (IF(bound(?weightE2), ?weightE2, "0.0"^^xsd:float) AS ?We2) .
 BIND (IF((?We1 > ?We2),?We1, ?We2) AS ?weightE)
 BIND (IF((?Wp1 > ?Wp2),?Wp1, ?Wp2) AS ?weightP)
 
+BIND (xsd:float(xsd:float(?weightE) + xsd:float(?weightP)) AS ?result)
+FILTER (?result >0)
 }
