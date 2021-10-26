@@ -1,0 +1,12 @@
+prefix rc: <http://regulatorycircuits.org/data/>
+prefix rcg: <http://regulatorycircuits.org/graph/>
+prefix rco: <http://regulatorycircuits.org/ontology/>
+
+SELECT DISTINCT ?sample ?diseaseName
+WHERE {
+  ?sample rco:isDisease ?disease .
+  FILTER ( ?disease = "true")
+  ?sample rco:DiseaseName ?diseaseName .
+  FILTER CONTAINS(?diseaseName,"leukemia") #for all samples were the condition contains the work leukemia
+  #FILTER (?diseaseName="ovarian cancer") #for all samples were the condition is exactly ovarian cancer
+}
