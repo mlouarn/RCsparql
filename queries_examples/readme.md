@@ -14,3 +14,6 @@ Those queries were designed to answer biological questions and can be modified t
 |tissues_samples.rq| Give the list of tissues and their corresponding samples|
 |get_tissues_info.rq|Give the info of the composing Samples of a Tissue, the biological tissue, age & other experimental infos|
 |Limit_exp_conditions.rq| Get the name of the samples limited to a Tissue for patient over 55yo | 
+|Limit_to_healthCondition.rq| Get the names of the samples with a disease or health condition (non specific) associated and its name |
+|Limit_to_healthy_samples.rq| Get the names of the healthy samples |
+|Samples_specific_disease.rq| Get the names of the samples with a specific health condition associated|
