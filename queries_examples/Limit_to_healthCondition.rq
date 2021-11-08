@@ -1,4 +1,4 @@
-#This query lists all the samples composing one biological tissue that are not linked to a disease
+#This query lists all the samples composing one biological tissue that are linked to a disease
 
 prefix rc: <http://regulatorycircuits.org/data/>
 prefix rcg: <http://regulatorycircuits.org/graph/>
@@ -8,6 +8,6 @@ SELECT DISTINCT ?sample ?diseaseName
 WHERE {
   ?sample rco:sampleInTissue rc:blood . #blood can be change to any other biological tissue or this line can be removed for broader results
   ?sample rco:isDisease ?disease .
-  FILTER ( ?disease = "false") #chqnge for true to get non-healthy samples
+  FILTER ( ?disease = "true") #chqnge for false to get healthy samples
   ?sample rco:DiseaseName ?diseaseName .
 }
