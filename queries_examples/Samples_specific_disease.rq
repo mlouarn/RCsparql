@@ -1,3 +1,5 @@
+#This query lists all the samples that are linked to a specific disease or diseases containing one word
+
 prefix rc: <http://regulatorycircuits.org/data/>
 prefix rcg: <http://regulatorycircuits.org/graph/>
 prefix rco: <http://regulatorycircuits.org/ontology/>
