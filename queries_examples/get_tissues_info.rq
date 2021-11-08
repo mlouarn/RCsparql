@@ -1,3 +1,5 @@
+#Retrieves the samples composing a tissue, the biological tissue, age of the patients and other experimental information, using the experimental context graph
+
 prefix rc: <http://regulatorycircuits.org/data/>
 prefix rcg: <http://regulatorycircuits.org/graph/>
 prefix rco: <http://regulatorycircuits.org/ontology/>
