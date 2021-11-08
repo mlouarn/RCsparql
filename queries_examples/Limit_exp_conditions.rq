@@ -1,3 +1,5 @@
+#Limits the experimental conditions by retrieving the names of the samples composing a tissue that follow some restrictions
+
 prefix rc: <http://regulatorycircuits.org/data/>
 prefix rcg: <http://regulatorycircuits.org/graph/>
 prefix rco: <http://regulatorycircuits.org/ontology/>
