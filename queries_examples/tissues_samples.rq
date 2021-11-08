@@ -1,3 +1,5 @@
+#Extract the samples corresponding to a specific tissue or to all the tissues
+
 prefix rc: <http://regulatorycircuits.org/data/>
 prefix rcg: <http://regulatorycircuits.org/graph/>
 prefix rco: <http://regulatorycircuits.org/ontology/>
