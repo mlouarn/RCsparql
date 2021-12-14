@@ -17,32 +17,20 @@ WHERE {
       ?rP rc:fromTF ?tf.
       ?rP rc:fromGene ?gene .
       ?rP rc:weightP ?weightP1 .
-    }
-  }
-BIND (IF(bound(?weightP1), ?weightP1, "0.0"^^xsd:float) AS ?Wp1) .
-  OPTIONAL {
-    GRAPH ?g1 {
-      ?rE rc:fromTF ?tf.
-      ?rE rc:fromGene ?gene .
       ?rE rc:weightE ?weightE1 .
     }
   }
+BIND (IF(bound(?weightP1), ?weightP1, "0.0"^^xsd:float) AS ?Wp1) .
 BIND (IF(bound(?weightE1), ?weightE1, "0.0"^^xsd:float) AS ?We1) .
   OPTIONAL {
     GRAPH ?g2 {
       ?rP rc:fromTF ?tf.
       ?rP rc:fromGene ?gene .
       ?rP rc:weightP ?weightP2 .
-    }
-  }
-BIND (IF(bound(?weightP2), ?weightP2, "0.0"^^xsd:float) AS ?Wp2) .
-  OPTIONAL {
-    GRAPH ?g2 {
-      ?rE rc:fromTF ?tf.
-      ?rE rc:fromGene ?gene .
       ?rE rc:weightE ?weightE2 .
     }
   }
+BIND (IF(bound(?weightP2), ?weightP2, "0.0"^^xsd:float) AS ?Wp2) .
 BIND (IF(bound(?weightE2), ?weightE2, "0.0"^^xsd:float) AS ?We2) .
 
 BIND (IF((?We1 > ?We2),?We1, ?We2) AS ?weightE)
