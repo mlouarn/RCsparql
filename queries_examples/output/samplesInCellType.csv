@@ -1,107 +1,107 @@
- sample , sampleLabel , sampleCellType , sampleAnatomicalEntity , sampleCellTypeLabel ,
-CNhs11923 , Chondrocyte - de diff, donor1 , http://purl.obolibrary.org/obo/CL_0000058 ,chondroblast , chondroblast ,
-CNhs11372 , Chondrocyte - de diff, donor2 , http://purl.obolibrary.org/obo/CL_0000058 ,chondroblast , chondroblast ,
-CNhs12020 , Chondrocyte - de diff, donor3 , http://purl.obolibrary.org/obo/CL_0000058 ,chondroblast , chondroblast ,
-CNhs10728 , extraskeletal myxoid chondrosarcoma cell line:H-EMC-SS , http://purl.obolibrary.org/obo/CL_0000058 ,chondroblast , chondroblast ,
-CNhs11952 , Fibroblast - Gingival, donor5 (GFH3) , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12028 , Fibroblast - Dermal, donor3 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11352 , Fibroblast - skin walker warburg, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11339 , Fibroblast - Conjunctival, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11953 , Fibroblast - Periodontal Ligament, donor5 (PL30) , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12344 , Fibroblast - Choroid Plexus, donor2 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11074 , Fibroblast - skin spinal muscular atrophy, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11962 , Fibroblast - Periodontal Ligament, donor2 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12498 , Fibroblast - Cardiac, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11322 , Fibroblast - Lymphatic, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs10878 , Fibroblast - Pulmonary Artery, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11914 , Fibroblast - skin normal, donor2 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11911 , Fibroblast - skin spinal muscular atrophy, donor2 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12011 , Fibroblast - Aortic Adventitial, donor3 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs10848 , Fibroblast - Gingival, donor4 (GFH2) , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11351 , Fibroblast - skin normal, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs10867 , Fibroblast - Periodontal Ligament, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12057 , Fibroblast - Cardiac, donor5 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11729 , myxofibrosarcoma cell line:MFH-ino , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11913 , Fibroblast - skin dystrophia myotonica, donor3 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11319 , Fibroblast - Choroid Plexus, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12118 , Fibroblast - Lymphatic, donor3 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11379 , Fibroblast - Dermal, donor2 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12493 , Fibroblast - Periodontal Ligament, donor4 (PL29) , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12499 , Fibroblast - Dermal, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12052 , Fibroblast - Dermal, donor4 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs10866 , Fibroblast - Gingival, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11353 , Fibroblast - skin dystrophia myotonica, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12006 , Fibroblast - Gingival, donor3 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11354 , Fibroblast - skin dystrophia myotonica, donor2 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11821 , myxofibrosarcoma cell line:NMFH-1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11907 , Fibroblast - Periodontal Ligament, donor3 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11912 , Fibroblast - skin spinal muscular atrophy, donor3 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12055 , Fibroblast - Dermal, donor5 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11909 , Fibroblast - Cardiac, donor4 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11961 , Fibroblast - Gingival, donor2 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11378 , Fibroblast - Cardiac, donor2 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12027 , Fibroblast - Cardiac, donor3 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12059 , Fibroblast - Dermal, donor6 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11996 , Fibroblast - Periodontal Ligament, donor6 (PLH3) , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs10874 , Fibroblast - Aortic Adventitial, donor1 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs12061 , Fibroblast - Cardiac, donor6 , http://purl.obolibrary.org/obo/CL_0000057 ,fibroblast , fibroblast ,
-CNhs11057 , Mesenchymal stem cells - Wharton's Jelly, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs11344 , Mesenchymal stem cells - bone marrow, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs12105 , Multipotent Cord Blood Unrestricted Somatic Stem Cells, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs12127 , Mesenchymal stem cells - umbilical, donor3 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs10845 , Mesenchymal stem cells - hepatic, donor0 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs12730 , Mesenchymal stem cells - hepatic, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs10844 , Mesenchymal stem cells - adipose, donor0 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs12922 , Mesenchymal stem cells - adipose, donor3 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs11347 , Mesenchymal stem cells - umbilical, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs12492 , Mesenchymal stem cells - umbilical, donor0 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs11718 , mesenchymal stem cell line:Hu5/E18 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs12100 , Mesenchymal stem cells - bone marrow, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs11345 , Mesenchymal stem cells - adipose, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs11349 , Mesenchymal stem cells - amniotic membrane, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs12126 , Mesenchymal stem cells - bone marrow, donor3 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs12104 , Mesenchymal stem cells - amniotic membrane, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs11350 , Multipotent Cord Blood Unrestricted Somatic Stem Cells, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_stem_cell , mesenchymal cell ,
-CNhs11931 , bone marrow stromal cell line:StromaNKtert , http://purl.obolibrary.org/obo/CL_0000499 ,stromal_cell , stromal cell ,
-CNhs12063 , Nucleus Pulposus Cell, donor3 , http://purl.obolibrary.org/obo/CL_0002564 ,nucleus_pulposus_cell_of_intervertebral_disc , nucleus pulposus cell of intervertebral disc ,
-CNhs12019 , Nucleus Pulposus Cell, donor2 , http://purl.obolibrary.org/obo/CL_0002564 ,nucleus_pulposus_cell_of_intervertebral_disc , nucleus pulposus cell of intervertebral disc ,
-CNhs10881 , Nucleus Pulposus Cell, donor1 , http://purl.obolibrary.org/obo/CL_0002564 ,nucleus_pulposus_cell_of_intervertebral_disc , nucleus pulposus cell of intervertebral disc ,
-CNhs13098 , mesenchymal precursor cell - bone marrow, donor3 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12364 , mesenchymal precursor cell - adipose, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12368 , mesenchymal precursor cell - cardiac, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs13507 , mesenchymal precursor cell - ovarian cancer right ovary, donor3 (SOC-57-02-G) , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs13093 , mesenchymal precursor cell - ovarian cancer metastasis, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12363 , mesenchymal precursor cell - adipose, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12367 , mesenchymal precursor cell - bone marrow, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12376 , mesenchymal precursor cell - ovarian cancer left ovary, donor3 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12372 , mesenchymal precursor cell - ovarian cancer left ovary, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12369 , mesenchymal precursor cell - cardiac, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs13097 , mesenchymal precursor cell - ovarian cancer metastasis, donor4 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12375 , mesenchymal precursor cell - ovarian cancer right ovary, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12366 , mesenchymal precursor cell - bone marrow, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs13094 , mesenchymal precursor cell - ovarian cancer left ovary, donor4 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12365 , mesenchymal precursor cell - adipose, donor3 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs13092 , mesenchymal precursor cell - ovarian cancer left ovary, donor2 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12371 , mesenchymal precursor cell - cardiac, donor4 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12378 , mesenchymal precursor cell - ovarian cancer metastasis, donor3 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12374 , mesenchymal precursor cell - ovarian cancer metastasis, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs13096 , mesenchymal precursor cell - ovarian cancer right ovary, donor4 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs13099 , serous adenocarcinoma cell line:SK-OV-3-R, biol_rep1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs13508 , serous adenocarcinoma cell line:SK-OV-3-R after co-culture with SOC-57-02-G, biol_rep1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12373 , mesenchymal precursor cell - ovarian cancer right ovary, donor1 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12377 , mesenchymal precursor cell - ovarian cancer right ovary, donor3 (SOC-57-02) , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs12370 , mesenchymal precursor cell - cardiac, donor3 , http://purl.obolibrary.org/obo/CL_0000134 ,mesenchymal_precursor_cell , mesenchymal cell ,
-CNhs11836 , Ewing's sarcoma cell line:Hs 863.T , http://purl.obolibrary.org/obo/CL_0000062 ,osteoblast , osteoblast ,
-CNhs11290 , osteosarcoma cell line:HS-Os-1 , http://purl.obolibrary.org/obo/CL_0000062 ,osteoblast , osteoblast ,
-CNhs12036 , Osteoblast, donor3 , http://purl.obolibrary.org/obo/CL_0000062 ,osteoblast , osteoblast ,
-CNhs11279 , osteosarcoma cell line:143B/TK^(-)neo^(R) , http://purl.obolibrary.org/obo/CL_0000062 ,osteoblast , osteoblast ,
-CNhs11385 , Osteoblast, donor2 , http://purl.obolibrary.org/obo/CL_0000062 ,osteoblast , osteoblast ,
-CNhs12079 , Pericytes, donor2 , http://purl.obolibrary.org/obo/CL_0000669 ,pericyte , pericyte cell ,
-CNhs11317 , Pericytes, donor1 , http://purl.obolibrary.org/obo/CL_0000669 ,pericyte , pericyte cell ,
-CNhs12017 , Adipocyte - subcutaneous, donor3 , http://purl.obolibrary.org/obo/CL_0000136 ,adipocyte , fat cell ,
-CNhs12494 , Adipocyte - subcutaneous, donor1 , http://purl.obolibrary.org/obo/CL_0000136 ,adipocyte , fat cell ,
-CNhs11371 , Adipocyte - subcutaneous, donor2 , http://purl.obolibrary.org/obo/CL_0000136 ,adipocyte , fat cell ,
-CNhs11051 , Adipocyte - breast, donor1 , http://purl.obolibrary.org/obo/CL_0000136 ,adipocyte , fat cell ,
-CNhs11870 , liposarcoma cell line:KMLS-1 , http://purl.obolibrary.org/obo/CL_0000136 ,adipocyte , fat cell ,
-CNhs11851 , liposarcoma cell line:SW 872 , http://purl.obolibrary.org/obo/CL_0000136 ,adipocyte , fat cell ,
-CNhs11969 , Adipocyte - breast, donor2 , http://purl.obolibrary.org/obo/CL_0000136 ,adipocyte , fat cell ,
+ sample 	 sampleLabel 	 sampleCellType 	 sampleAnatomicalEntity 	 sampleCellTypeLabel 
+CNhs11923 	 Chondrocyte - de diff	 donor1 	 http://purl.obolibrary.org/obo/CL_0000058 	chondroblast 
+CNhs11372 	 Chondrocyte - de diff	 donor2 	 http://purl.obolibrary.org/obo/CL_0000058 	chondroblast 
+CNhs12020 	 Chondrocyte - de diff	 donor3 	 http://purl.obolibrary.org/obo/CL_0000058 	chondroblast 
+CNhs10728 	 extraskeletal myxoid chondrosarcoma cell line:H-EMC-SS 		 http://purl.obolibrary.org/obo/CL_0000058 	chondroblast 
+CNhs11952 	 Fibroblast - Gingival	 donor5 (GFH3) 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12028 	 Fibroblast - Dermal	 donor3 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11352 	 Fibroblast - skin walker warburg	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11339 	 Fibroblast - Conjunctival	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11953 	 Fibroblast - Periodontal Ligament	 donor5 (PL30) 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12344 	 Fibroblast - Choroid Plexus	 donor2 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11074 	 Fibroblast - skin spinal muscular atrophy	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11962 	 Fibroblast - Periodontal Ligament	 donor2 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12498 	 Fibroblast - Cardiac	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11322 	 Fibroblast - Lymphatic	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs10878 	 Fibroblast - Pulmonary Artery	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11914 	 Fibroblast - skin normal	 donor2 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11911 	 Fibroblast - skin spinal muscular atrophy	 donor2 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12011 	 Fibroblast - Aortic Adventitial	 donor3 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs10848 	 Fibroblast - Gingival	 donor4 (GFH2) 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11351 	 Fibroblast - skin normal	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs10867 	 Fibroblast - Periodontal Ligament	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12057 	 Fibroblast - Cardiac	 donor5 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11729 	 myxofibrosarcoma cell line:MFH-ino 		 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11913 	 Fibroblast - skin dystrophia myotonica	 donor3 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11319 	 Fibroblast - Choroid Plexus	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12118 	 Fibroblast - Lymphatic	 donor3 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11379 	 Fibroblast - Dermal	 donor2 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12493 	 Fibroblast - Periodontal Ligament	 donor4 (PL29) 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12499 	 Fibroblast - Dermal	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12052 	 Fibroblast - Dermal	 donor4 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs10866 	 Fibroblast - Gingival	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11353 	 Fibroblast - skin dystrophia myotonica	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12006 	 Fibroblast - Gingival	 donor3 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11354 	 Fibroblast - skin dystrophia myotonica	 donor2 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11821 	 myxofibrosarcoma cell line:NMFH-1 		 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11907 	 Fibroblast - Periodontal Ligament	 donor3 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11912 	 Fibroblast - skin spinal muscular atrophy	 donor3 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12055 	 Fibroblast - Dermal	 donor5 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11909 	 Fibroblast - Cardiac	 donor4 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11961 	 Fibroblast - Gingival	 donor2 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11378 	 Fibroblast - Cardiac	 donor2 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12027 	 Fibroblast - Cardiac	 donor3 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12059 	 Fibroblast - Dermal	 donor6 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11996 	 Fibroblast - Periodontal Ligament	 donor6 (PLH3) 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs10874 	 Fibroblast - Aortic Adventitial	 donor1 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs12061 	 Fibroblast - Cardiac	 donor6 	 http://purl.obolibrary.org/obo/CL_0000057 	fibroblast 
+CNhs11057 	 Mesenchymal stem cells - Wharton's Jelly	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs11344 	 Mesenchymal stem cells - bone marrow	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs12105 	 Multipotent Cord Blood Unrestricted Somatic Stem Cells	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs12127 	 Mesenchymal stem cells - umbilical	 donor3 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs10845 	 Mesenchymal stem cells - hepatic	 donor0 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs12730 	 Mesenchymal stem cells - hepatic	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs10844 	 Mesenchymal stem cells - adipose	 donor0 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs12922 	 Mesenchymal stem cells - adipose	 donor3 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs11347 	 Mesenchymal stem cells - umbilical	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs12492 	 Mesenchymal stem cells - umbilical	 donor0 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs11718 	 mesenchymal stem cell line:Hu5/E18 		 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs12100 	 Mesenchymal stem cells - bone marrow	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs11345 	 Mesenchymal stem cells - adipose	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs11349 	 Mesenchymal stem cells - amniotic membrane	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs12126 	 Mesenchymal stem cells - bone marrow	 donor3 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs12104 	 Mesenchymal stem cells - amniotic membrane	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs11350 	 Multipotent Cord Blood Unrestricted Somatic Stem Cells	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_stem_cell 
+CNhs11931 	 bone marrow stromal cell line:StromaNKtert 		 http://purl.obolibrary.org/obo/CL_0000499 	stromal_cell 
+CNhs12063 	 Nucleus Pulposus Cell	 donor3 	 http://purl.obolibrary.org/obo/CL_0002564 	nucleus_pulposus_cell_of_intervertebral_disc 
+CNhs12019 	 Nucleus Pulposus Cell	 donor2 	 http://purl.obolibrary.org/obo/CL_0002564 	nucleus_pulposus_cell_of_intervertebral_disc 
+CNhs10881 	 Nucleus Pulposus Cell	 donor1 	 http://purl.obolibrary.org/obo/CL_0002564 	nucleus_pulposus_cell_of_intervertebral_disc 
+CNhs13098 	 mesenchymal precursor cell - bone marrow	 donor3 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12364 	 mesenchymal precursor cell - adipose	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12368 	 mesenchymal precursor cell - cardiac	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs13507 	 mesenchymal precursor cell - ovarian cancer right ovary	 donor3 (SOC-57-02-G) 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs13093 	 mesenchymal precursor cell - ovarian cancer metastasis	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12363 	 mesenchymal precursor cell - adipose	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12367 	 mesenchymal precursor cell - bone marrow	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12376 	 mesenchymal precursor cell - ovarian cancer left ovary	 donor3 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12372 	 mesenchymal precursor cell - ovarian cancer left ovary	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12369 	 mesenchymal precursor cell - cardiac	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs13097 	 mesenchymal precursor cell - ovarian cancer metastasis	 donor4 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12375 	 mesenchymal precursor cell - ovarian cancer right ovary	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12366 	 mesenchymal precursor cell - bone marrow	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs13094 	 mesenchymal precursor cell - ovarian cancer left ovary	 donor4 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12365 	 mesenchymal precursor cell - adipose	 donor3 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs13092 	 mesenchymal precursor cell - ovarian cancer left ovary	 donor2 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12371 	 mesenchymal precursor cell - cardiac	 donor4 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12378 	 mesenchymal precursor cell - ovarian cancer metastasis	 donor3 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12374 	 mesenchymal precursor cell - ovarian cancer metastasis	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs13096 	 mesenchymal precursor cell - ovarian cancer right ovary	 donor4 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs13099 	 serous adenocarcinoma cell line:SK-OV-3-R	 biol_rep1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs13508 	 serous adenocarcinoma cell line:SK-OV-3-R after co-culture with SOC-57-02-G	 biol_rep1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12373 	 mesenchymal precursor cell - ovarian cancer right ovary	 donor1 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12377 	 mesenchymal precursor cell - ovarian cancer right ovary	 donor3 (SOC-57-02) 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs12370 	 mesenchymal precursor cell - cardiac	 donor3 	 http://purl.obolibrary.org/obo/CL_0000134 	mesenchymal_precursor_cell 
+CNhs11836 	 Ewing's sarcoma cell line:Hs 863.T 		 http://purl.obolibrary.org/obo/CL_0000062 	osteoblast 
+CNhs11290 	 osteosarcoma cell line:HS-Os-1 		 http://purl.obolibrary.org/obo/CL_0000062 	osteoblast 
+CNhs12036 	 Osteoblast	 donor3 	 http://purl.obolibrary.org/obo/CL_0000062 	osteoblast 
+CNhs11279 	 osteosarcoma cell line:143B/TK^(-)neo^(R) 		 http://purl.obolibrary.org/obo/CL_0000062 	osteoblast 
+CNhs11385 	 Osteoblast	 donor2 	 http://purl.obolibrary.org/obo/CL_0000062 	osteoblast 
+CNhs12079 	 Pericytes	 donor2 	 http://purl.obolibrary.org/obo/CL_0000669 	pericyte 
+CNhs11317 	 Pericytes	 donor1 	 http://purl.obolibrary.org/obo/CL_0000669 	pericyte 
+CNhs12017 	 Adipocyte - subcutaneous	 donor3 	 http://purl.obolibrary.org/obo/CL_0000136 	adipocyte 
+CNhs12494 	 Adipocyte - subcutaneous	 donor1 	 http://purl.obolibrary.org/obo/CL_0000136 	adipocyte 
+CNhs11371 	 Adipocyte - subcutaneous	 donor2 	 http://purl.obolibrary.org/obo/CL_0000136 	adipocyte 
+CNhs11051 	 Adipocyte - breast	 donor1 	 http://purl.obolibrary.org/obo/CL_0000136 	adipocyte 
+CNhs11870 	 liposarcoma cell line:KMLS-1 		 http://purl.obolibrary.org/obo/CL_0000136 	adipocyte 
+CNhs11851 	 liposarcoma cell line:SW 872 		 http://purl.obolibrary.org/obo/CL_0000136 	adipocyte 
+CNhs11969 	 Adipocyte - breast	 donor2 	 http://purl.obolibrary.org/obo/CL_0000136 	adipocyte 
