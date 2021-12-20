@@ -1,0 +1,284 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
+
+@prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> .
+@prefix cl: <http://purl.obolibrary.org/obo/CL_> .
+
+@prefix rc: <http://regulatorycircuits.org/data/> .
+@prefix rcg: <http://regulatorycircuits.org/graph/> .
+@prefix rco: <http://regulatorycircuits.org/ontology/> .
+#@prefix rco: <http://regulatorycircuits.org/data/> .
+
+
+GRAPH rcg:experimentalContext {
+
+
+rc:adipocyte skos:exactMatch cl:0000136 .
+rc:adipocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000136 ] .
+
+rc:adrenal_cortex_cell skos:exactMatch cl:0002097 .
+rc:adrenal_cortex_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002097 ] .
+
+rc:amniotic_epithelial_cell skos:exactMatch cl:0002536 .
+rc:amniotic_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002536 ] .
+
+rc:astrocyte skos:exactMatch cl:0000127 .
+rc:astrocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000127 ] .
+
+rc:b_cell skos:exactMatch cl:0000236 .
+rc:b_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000236 ] .
+
+rc:basophil skos:exactMatch cl:0000767 .
+rc:basophil rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000767 ] .
+
+rc:basophil_progenitor_cell skos:exactMatch cl:0000613 .
+rc:basophil_progenitor_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000613 ] .
+
+rc:blood_vessel_endothelial_cell skos:exactMatch cl:0000071 .
+rc:blood_vessel_endothelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000071 ] .
+
+rc:cardiac_muscle_cell skos:exactMatch cl:0000746 .
+rc:cardiac_muscle_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000746 ] .
+
+rc:chondroblast skos:exactMatch cl:0000058 .
+rc:chondroblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000058 ] .
+
+rc:chondrocyte skos:exactMatch cl:0000138 .
+rc:chondrocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000138 ] .
+
+rc:ciliated_epithelial_cell skos:exactMatch cl:0000067 .
+rc:ciliated_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000067 ] .
+
+rc:clara_cell skos:exactMatch cl:0000158 .
+rc:clara_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000158 ] .
+
+rc:corneal_epithelial_cell skos:exactMatch cl:0000575 .
+rc:corneal_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000575 ] .
+
+rc:endothelial_cell skos:exactMatch cl:0000115 .
+rc:endothelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000115 ] .
+
+rc:eosinophil_progenitor_cell skos:exactMatch cl:0000611 .
+rc:eosinophil_progenitor_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000611 ] .
+
+rc:epithelial_cell skos:exactMatch cl:0000066 .
+rc:epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000066 ] .
+
+rc:epithelial_cell_rests_of_Malassez skos:exactMatch cl:0002166 .
+rc:epithelial_cell_rests_of_Malassez rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002166 ] .
+
+rc:erythroblast skos:exactMatch cl:0000765 .
+rc:erythroblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000765 ] .
+
+rc:fibroblast skos:exactMatch cl:0000057 .
+rc:fibroblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000057 ] .
+
+rc:germ_cell skos:exactMatch cl:0000586 .
+rc:germ_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000586 ] .
+
+rc:glioblast skos:exactMatch cl:0000030 .
+rc:glioblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000030 ] .
+
+rc:granulocyte skos:exactMatch cl:0000094 .
+rc:granulocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000094 ] .
+
+rc:granulocyte_monocyte_progenitor_cell skos:exactMatch cl:0000557 .
+rc:granulocyte_monocyte_progenitor_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000557 ] .
+
+rc:granulosa_cell skos:exactMatch cl:0000501 .
+rc:granulosa_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000501 ] .
+
+rc:hepatoblast skos:exactMatch cl:0005026 .
+rc:hepatoblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0005026 ] .
+
+rc:hepatocyte skos:exactMatch cl:0000182 .
+rc:hepatocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000182 ] .
+
+rc:iris_pigment_epithelial_cell skos:exactMatch cl:0002565 .
+rc:iris_pigment_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002565 ] .
+
+rc:keratinocyte skos:exactMatch cl:0000312 .
+rc:keratinocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000312 ] .
+
+rc:keratocyte skos:exactMatch cl:0002363 .
+rc:keratocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002363 ] .
+
+rc:langerhans_cell skos:exactMatch cl:0000453 .
+rc:langerhans_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000453 ] .
+
+rc:lens_epithelial_cell skos:exactMatch cl:0002224 .
+rc:lens_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002224 ] .
+
+rc:lymphocyte skos:exactMatch cl:0000542 .
+rc:lymphocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000542 ] .
+
+rc:macrophage skos:exactMatch cl:0000235 .
+rc:macrophage rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000235 ] .
+
+rc:mammary_gland_epithelial_cell skos:exactMatch cl:0002327 .
+rc:mammary_gland_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002327 ] .
+
+rc:mast_cell skos:exactMatch cl:0000097 .
+rc:mast_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000097 ] .
+
+rc:megakaryoblast skos:exactMatch cl:0000553 .
+rc:megakaryoblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000553 ] .
+
+rc:melanocyte skos:exactMatch cl:0000148 .
+rc:melanocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000148 ] .
+
+rc:merkel_cell skos:exactMatch cl:0000242 .
+rc:merkel_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000242 ] .
+
+rc:mesenchymal_precursor_cell skos:related cl:0000134 .
+rc:mesenchymal_precursor_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000134 ] .
+
+rc:mesenchymal_stem_cell skos:exactMatch cl:0000134 .
+rc:mesenchymal_stem_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000134 ] .
+rc:mesenchymal_stem_cell skos:related cl:0000134 .
+rc:mesenchymal_stem_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000134 ] .
+
+rc:mesothelial_cell skos:exactMatch cl:0000077 .
+rc:mesothelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000077 ] .
+
+rc:monoblast skos:exactMatch cl:0000040 .
+rc:monoblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000040 ] .
+
+rc:monocyte skos:exactMatch cl:0000576 .
+rc:monocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000576 ] .
+rc:monocyte skos:broader cl:0001054 .
+rc:monocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0001054 ] .
+
+rc:mononuclear_cell skos:exactMatch cl:0000842 .
+rc:mononuclear_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000842 ] .
+
+rc:myeloid_cell skos:exactMatch cl:0000763 .
+rc:myeloid_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000763 ] .
+
+rc:myeloid_progenitor_cell skos:narrower cl:0000839 .
+rc:myeloid_progenitor_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000839 ] .
+
+rc:natural_killer_cell skos:exactMatch cl:0000623 .
+rc:natural_killer_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000623 ] .
+
+rc:neural_stem_cell skos:exactMatch cl:0000047 .
+rc:neural_stem_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000047 ] .
+
+rc:neurectodermal_cell skos:exactMatch cl:0000133 .
+rc:neurectodermal_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000133 ] .
+
+rc:neuroblast skos:exactMatch cl:0000031 .
+rc:neuroblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000031 ] .
+rc:neuroblast skos:narrower cl:0000338 .
+rc:neuroblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000338 ] .
+
+rc:neuroendocrine_cell skos:exactMatch cl:0000165 .
+rc:neuroendocrine_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000165 ] .
+
+rc:neuron skos:exactMatch cl:0000540 .
+rc:neuron rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000540 ] .
+rc:neuron skos:exactMatch cl:0000540 .
+rc:neuron rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000540 ] .
+
+rc:neutrophil skos:exactMatch cl:0000775 .
+rc:neutrophil rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000775 ] .
+
+rc:nucleus_pulposus_cell_of_intervertebral_disc skos:exactMatch cl:0002564 .
+rc:nucleus_pulposus_cell_of_intervertebral_disc rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002564 ] .
+
+rc:osteoblast skos:exactMatch cl:0000062 .
+rc:osteoblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000062 ] .
+
+rc:osteoclast skos:exactMatch cl:0000092 .
+rc:osteoclast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000092 ] .
+
+rc:osteocyte skos:exactMatch cl:0000137 .
+rc:osteocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000137 ] .
+
+rc:pancreatic_delta_cell skos:exactMatch cl:0000173 .
+rc:pancreatic_delta_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000173 ] .
+
+rc:pericyte skos:exactMatch cl:0000669 .
+rc:pericyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000669 ] .
+
+rc:placental_epithelial_cell skos:exactMatch cl:0002577 .
+rc:placental_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002577 ] .
+
+rc:plasma_cell skos:exactMatch cl:0000786 .
+rc:plasma_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000786 ] .
+
+rc:pneumocyte skos:exactMatch cl:0000322 .
+rc:pneumocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000322 ] .
+
+rc:preadipocyte skos:exactMatch cl:0002334 .
+rc:preadipocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002334 ] .
+
+rc:retinal_pigment_epithelial_cell skos:exactMatch cl:0002586 .
+rc:retinal_pigment_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002586 ] .
+
+rc:schwann_cell skos:exactMatch cl:0002573 .
+rc:schwann_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002573 ] .
+rc:schwann_cell skos:narrower cl:0000218 .
+rc:schwann_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000218 ] .
+rc:schwann_cell skos:narrower cl:0000692 .
+rc:schwann_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000692 ] .
+rc:schwann_cell skos:narrower cl:0002377 .
+rc:schwann_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002377 ] .
+rc:schwann_cell skos:narrower cl:0002376 .
+rc:schwann_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002376 ] .
+
+rc:sebocyte skos:exactMatch cl:0000317 .
+rc:sebocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000317 ] .
+rc:sebocyte skos:narrower cl:0002140 .
+rc:sebocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002140 ] .
+
+rc:sertoli_cell skos:exactMatch cl:0000216 .
+rc:sertoli_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000216 ] .
+
+rc:skeletal_muscle_cell skos:exactMatch cl:0000188 .
+rc:skeletal_muscle_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000188 ] .
+
+rc:skeletal_muscle_myoblast skos:exactMatch cl:0000515 .
+rc:skeletal_muscle_myoblast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000515 ] .
+
+rc:smooth_muscle_cell skos:exactMatch cl:0000192 .
+rc:smooth_muscle_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000192 ] .
+
+rc:stem_cell skos:exactMatch cl:0000034 .
+rc:stem_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000034 ] .
+
+rc:stromal_cell skos:exactMatch cl:0000499 .
+rc:stromal_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000499 ] .
+
+rc:synovial_cell skos:exactMatch cl:0000214 .
+rc:synovial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000214 ] .
+
+rc:t_cell skos:exactMatch cl:0000084 .
+rc:t_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000084 ] .
+
+rc:T_cell skos:exactMatch cl:0000084 .
+rc:T_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000084 ] .
+
+rc:tenocyte skos:related cl:0000388 .
+rc:tenocyte rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000388 ] .
+
+rc:trabecular_meshwork_cell skos:exactMatch cl:0002367 .
+rc:trabecular_meshwork_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0002367 ] .
+
+rc:tracheal_epithelial_cell skos:exactMatch cl:0000307 .
+rc:tracheal_epithelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000307 ] .
+
+rc:trophoblast_cell skos:exactMatch cl:0000351 .
+rc:trophoblast_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000351 ] .
+
+rc:urothelial_cell skos:exactMatch cl:0000731 .
+rc:urothelial_cell rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> ; rco:xrefIdent cl:0000731 ] .
+
+}
