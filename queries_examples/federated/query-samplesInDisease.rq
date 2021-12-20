@@ -1,0 +1,74 @@
+# This query retrieves the samples which are associated to a tissue that is associated with carcinoma using a federated query and ontology-based reasoning on an ontology of diseases.
+#
+# Retrieving the sample's tissue is performed on the local RegulatoryCircuit dataset.
+# Determining whether this tissue is associated to carcinoma (or one of its subclasses such as "bronchus carcinoma" or "bile duct carcinoma") requires some (external) anatomical knowledge.
+# We leveraged the mapping of RC tissues to the Human Disease Ontology (DOID) and used the public BioPortal SPARQL endpoint.
+# Please note that:
+# 1. using the BioPortal SPARQL endpoint requires to create an account and to have an API key that should be appended to the URL in the SERVICE clause
+# 2. the BioPortal endpoint only supports a fragment of SPARQL that limits us to retrieving the direct parts of abdominal cavity. If you use another SPARQL endpoint for DOID, replace
+# ?sampleDiseaseDOID rdfs:subClassOf
+# by
+# ?sampleDiseaseDOID rdfs:subClassOf*
+# to also retrieve the indirect subclasses of carcinoma
+
+#
+# Results: file result-query-samplesInDisease.csv
+#
+
+
+### ENABLE FEDERATED QUERIES IN VIRTUOSO
+### https://community.openlinksw.com/t/enabling-sparql-1-1-federated-query-processing-in-virtuoso/2477/1
+
+# ${FUSEKI_HOME}/fuseki-server --file=regulatoryCircuits-metadata.trig --file=nmeth_3799-S2.trig --file=nmeth_3799-S2-mappings-doid.trig /rc
+
+# ${JENA_HOME}/bin/sparql --data=nmeth_3799-S2-mappings-doid.trig --query=query-samplesInDisease.rq
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+PREFIX rc: <http://regulatorycircuits.org/data/> 
+PREFIX rcg: <http://regulatorycircuits.org/graph/> 
+PREFIX rco: <http://regulatorycircuits.org/ontology/> 
+
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX bfo: <http://purl.obolibrary.org/obo/BFO_> # bfo:0000050 = part_of
+
+PREFIX doid: <http://purl.obolibrary.org/obo/DOID_>
+
+
+SELECT DISTINCT ?sample ?sampleLabel ?circuit ?circuitLabel ?circuitDisease ?circuitDiseaseLabel
+WHERE {
+
+  {
+    SELECT * WHERE {
+      VALUES ?circuitDiseaseCategory { doid:305 } # carcinoma
+      GRAPH rcg:experimentalContext { #uncomment if local files
+
+      # For making the query faster when testing
+      # These are the samples associated to subclasses
+      # of carcinoma
+      VALUES ?sample { rc:CNhs11840 rc:CNhs11841 rc:CNhs11862 }
+      ?sample rdfs:label ?sampleLabel .
+      ?circuit rco:tissueComposedOf ?sample .
+
+      #?circuit rdf:type rco:TissueSpecificCircuit .
+      ?circuit rdfs:label ?circuitLabel .
+      ?circuit rco:xref ?diseaseXref .
+      ?diseaseXref rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> .
+      ?diseaseXref rco:xrefIdent ?circuitDisease .
+      }
+    }
+  }
+
+  # bioportal API key:  XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX 
+  SERVICE <http://sparql.bioontology.org/ontologies/sparql/?apikey=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX> {
+    GRAPH <http://bioportal.bioontology.org/ontologies/DOID> {
+      ?circuitDisease rdfs:label ?circuitDiseaseLabel .
+      ?circuitDisease rdfs:subClassOf ?circuitDiseaseCategory
+    }
+  }
+
+}

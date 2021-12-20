@@ -1,0 +1,19 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX bfo: <http://purl.obolibrary.org/obo/BFO_> # bfo:0000050 = part_of
+
+PREFIX uberon: <http://purl.obolibrary.org/obo/UBERON_>
+
+SELECT ?anatomicalStruct ?labelRel
+WHERE {
+  VALUES ?labelRel { rdfs:label oboInOwl:hasExactSynonym oboInOwl:hasBroadSynonym oboInOwl:hasNarrowSynonym oboInOwl:hasRelatedSynonym }
+  #?anatomicalStruct rdfs:label "liver"^^xsd:string .
+  #?anatomicalStruct rdfs:label|oboInOwl:has_exact_synonym ?anatomicalLabel .
+  ?anatomicalStruct ?labelRel ?anatomicalLabel .
+  FILTER(lcase(str(?anatomicalLabel)) = "ReplaceByAnatomicalName")
+}

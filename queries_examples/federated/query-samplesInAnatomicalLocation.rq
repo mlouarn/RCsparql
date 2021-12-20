@@ -1,0 +1,73 @@
+# This query retrieves the samples which are associated to a tissue that is part of the abdominal cavity using a federated query and ontology-based reasoning on an ontology of anatomy.
+#
+# Retrieving the sample's tissue is performed on the local RegulatoryCircuit dataset.
+# Determining whether this tissue is part of the abdominal cavity requires some (external) anatomical knowledge.
+# We leveraged the mapping of RC tissues to the Uberon ontology and used the public BioPortal SPARQL endpoint.
+# Please note that:
+# 1. using the BioPortal SPARQL endpoint requires to create an account and to have an API key that should be appended to the URL in the SERVICE clause
+# 2. the BioPortal endpoint only supports a fragment of SPARQL that limits us to retrieving the direct parts of abdominal cavity. If you use another SPARQL endpoint for Uberon, replace
+# ?sampleAnatomicalEntityUberon rdfs:subClassOf
+# by
+# ?sampleAnatomicalEntityUberon rdfs:subClassOf/((owl:someValuesFrom/owl:subClassOf)*)
+# to also retrieve the indirect parts of abdominal cavity
+
+#
+# Results: file result-query-samplesInAnatomicalLocation.csv
+#
+
+
+### ENABLE FEDERATED QUERIES IN VIRTUOSO
+### https://community.openlinksw.com/t/enabling-sparql-1-1-federated-query-processing-in-virtuoso/2477/1
+
+# ${FUSEKI_HOME}/fuseki-server --file=regulatoryCircuits-metadata.trig --file=nmeth_3799-S2.trig --file=nmeth_3799-S2-mappings-fma-tissue-cell.trig --file=nmeth_3799-S2-mappings-uberon-tissue-cell.trig /rc
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+PREFIX rc: <http://regulatorycircuits.org/data/> 
+PREFIX rcg: <http://regulatorycircuits.org/graph/> 
+PREFIX rco: <http://regulatorycircuits.org/ontology/> 
+
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX bfo: <http://purl.obolibrary.org/obo/BFO_> # bfo:0000050 = part_of
+
+PREFIX uberon: <http://purl.obolibrary.org/obo/UBERON_>
+
+
+SELECT DISTINCT ?sample ?sampleLabel ?sampleAnatomicalEntityUberon ?sampleAnatomicalEntityUberonLabel
+WHERE {
+
+  {
+    SELECT * WHERE {
+      VALUES ?queryAnatomicalEntityUberon { uberon:0003684 } # abdominal cavity
+      #GRAPH rcg:experimentalContext { #uncomment if local files
+
+      # For making the query faster when testing
+      # These are the two samples from retroperitoneum,
+      # which is located in the abdominal cavity
+      VALUES ?sample { rc:CNhs11846 rc:CNhs11870 }
+
+      ?sample rdfs:label ?sampleLabel .
+      ?sample rco:sampleInTissue ?sampleAnatomicalEntity .
+      ?sampleAnatomicalEntity rco:xref ?anatXref .
+      ?anatXref rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> .
+      ?anatXref rco:xrefIdent ?sampleAnatomicalEntityUberon .
+      #}
+    }
+  }
+
+  # bioportal API key:  XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX 
+  SERVICE <http://sparql.bioontology.org/ontologies/sparql/?apikey=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX> {
+    GRAPH <http://bioportal.bioontology.org/ontologies/UBERON> {
+      ?sampleAnatomicalEntityUberon rdfs:label ?sampleAnatomicalEntityUberonLabel .
+      ?sampleAnatomicalEntityUberon rdfs:subClassOf [
+        rdf:type owl:Restriction ;
+        owl:onProperty bfo:0000050 ;
+        owl:someValuesFrom ?queryAnatomicalEntityUberon ;
+      ]
+    }
+  }
+}

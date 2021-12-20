@@ -1,0 +1,76 @@
+# This query retrieves the samples which are associated to a cell type that is a subclass of connective tissue cell (e.g. chondroblast, chondrocyte, adipocyte...) using a federated query and ontology-based reasoning on an ontology of anatomy.
+#
+# Retrieving the sample's cell type is performed on the local RegulatoryCircuit dataset.
+# Determining whether this cell type is subsumed by connective tissue cell requires some (external) anatomical knowledge.
+# We leveraged the mapping of RC cell types to the CL Cell Ontology and used the public BioPortal SPARQL endpoint.
+# Please note that:
+# 1. using the BioPortal SPARQL endpoint requires to create an account and to have an API key that should be appended to the URL in the SERVICE clause
+# 2. the BioPortal endpoint only supports a fragment of SPARQL that limits us to retrieving the direct subclasses of connective tissue cell. If you use another SPARQL endpoint for CL, replace
+# ?sampleAnatomicalEntityUberon rdfs:subClassOf ?queryCellType
+# by
+# ?sampleAnatomicalEntityUberon rdfs:subClassOf* ?queryCellType
+# to also retrieve the indirect subclasses of connective tissue cell.
+
+#
+# Results: file result-query-samplesInCellType.csv
+#
+
+
+### ENABLE FEDERATED QUERIES IN VIRTUOSO
+### https://community.openlinksw.com/t/enabling-sparql-1-1-federated-query-processing-in-virtuoso/2477/1
+
+# ${FUSEKI_HOME}/fuseki-server --file=regulatoryCircuits-metadata.trig --file=nmeth_3799-S2.trig --file=nmeth_3799-S2-mappings-fma-tissue-cell.trig --file=nmeth_3799-S2-mappings-uberon-tissue-cell.trig --file=nmeth_3799-S2-mappings-cl-tissue-cell.trig /rc
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+PREFIX rc: <http://regulatorycircuits.org/data/> 
+PREFIX rcg: <http://regulatorycircuits.org/graph/> 
+PREFIX rco: <http://regulatorycircuits.org/ontology/> 
+
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX bfo: <http://purl.obolibrary.org/obo/BFO_> # bfo:0000050 = part_of
+
+PREFIX uberon: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX cl: <http://purl.obolibrary.org/obo/CL_>
+PREFIX fma: <http://purl.org/sig/ont/fma/>
+
+
+SELECT DISTINCT ?sample ?sampleLabel ?sampleCellType ?sampleAnatomicalEntity ?sampleCellTypeLabel 
+WHERE {
+
+  VALUES ?queryCellType { cl:0002320 } # connective tissue cell (subsumes chondroblast, chondrocyte, adipocyte...)
+  #VALUES ?queryCellType { fma:fma63875 } # connective tissue cell (subsumes chondroblast, chondrocyte, adipocyte...)
+  
+  # For making the query faster when testing
+  # These are samples with 
+  # - adipocytes (rc:CNhs12017 rc:CNhs11051) ,
+  # - condroblasts (rc:CNhs11923 rc:CNhs11372)
+  # - condrocytes (rc:CNhs11373 rc:CNhs12021)
+  # which are subclasses of connective tissue cell
+  #VALUES ?sample { rc:CNhs12017 rc:CNhs11051 rc:CNhs11923 rc:CNhs11372 rc:CNhs11373 rc:CNhs12021 }
+
+  GRAPH rcg:experimentalContext {
+    ?sample rdfs:label ?sampleLabel .
+    ?sample rco:sampledInCellType ?sampleAnatomicalEntity .
+    ?sampleAnatomicalEntity rco:xref ?anatXref .
+    ?anatXref rco:xrefSource <http://purl.obolibrary.org/obo/cl.owl> .
+    #?anatXref rco:xrefSource <http://purl.org/sig/ont/fma.owl> .
+    ?anatXref rco:xrefIdent ?sampleCellType .
+  }
+
+  ## bioportal API key:  XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX 
+  SERVICE <http://sparql.bioontology.org/ontologies/sparql/?apikey=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX> {
+    GRAPH <http://bioportal.bioontology.org/ontologies/CL> {
+      ?sampleCellType rdfs:label ?sampleCellTypeLabel .
+      ?sampleCellType rdfs:subClassOf ?queryCellType .
+    }
+  
+  #  GRAPH <http://bioportal.bioontology.org/ontologies/FMA> {
+  #  #  ?sampleCellType rdfs:label ?sampleCellTypeLabel .
+  #    ?sampleCellType rdfs:subClassOf ?queryCellType .
+  #  }
+  }
+}
