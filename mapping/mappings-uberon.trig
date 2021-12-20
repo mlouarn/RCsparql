@@ -1,0 +1,454 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
+
+@prefix uberon: <http://purl.obolibrary.org/obo/UBERON_> .
+
+@prefix rc: <http://regulatorycircuits.org/data/> .
+@prefix rcg: <http://regulatorycircuits.org/graph/> .
+@prefix rco: <http://regulatorycircuits.org/ontology/> .
+#@prefix rco: <http://regulatorycircuits.org/data/> .
+
+
+GRAPH rcg:experimentalContext {
+
+
+rc:retroperitoneum skos:exactMatch uberon:0003693 .
+rc:retroperitoneum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0003693 ] .
+
+rc:breast skos:exactMatch uberon:0000310 .
+rc:breast rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000310 ] .
+
+rc:adipose_tissue skos:exactMatch uberon:0001013 .
+rc:adipose_tissue rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001013 ] .
+
+rc:liver skos:exactMatch uberon:0002107 .
+rc:liver rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002107 ] .
+
+rc:adrenal_gland skos:exactMatch uberon:0002369 .
+rc:adrenal_gland rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002369 ] .
+
+rc:amnion skos:exactMatch uberon:0000305 .
+rc:amnion rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000305 ] .
+
+rc:spinal_cord skos:exactMatch uberon:0002240 .
+rc:spinal_cord rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002240 ] .
+
+rc:brain skos:exactMatch uberon:0000955 .
+rc:brain rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000955 ] .
+rc:brain skos:related uberon:6110636 .
+rc:brain rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:6110636 ] .
+
+rc:cerebellum skos:exactMatch uberon:0002037 .
+rc:cerebellum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002037 ] .
+
+rc:cerebral_cortex skos:exactMatch uberon:0000956 .
+rc:cerebral_cortex rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000956 ] .
+
+rc:blood skos:exactMatch uberon:0000178 .
+rc:blood rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000178 ] .
+
+rc:aorta skos:exactMatch uberon:0000947 .
+rc:aorta rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000947 ] .
+
+rc:artery skos:exactMatch uberon:0001637 .
+rc:artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001637 ] .
+
+rc:capillary skos:exactMatch uberon:0001982 .
+rc:capillary rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001982 ] .
+
+rc:internal_thoracic_artery skos:exactMatch uberon:0002456 .
+rc:internal_thoracic_artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002456 ] .
+
+rc:umbilical_vein skos:exactMatch uberon:0002066 .
+rc:umbilical_vein rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002066 ] .
+
+rc:vein skos:exactMatch uberon:0001638 .
+rc:vein rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001638 ] .
+
+rc:heart skos:exactMatch uberon:0000948 .
+rc:heart rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000948 ] .
+rc:heart skos:narrower uberon:0015228 .
+rc:heart rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0015228 ] .
+rc:heart skos:broader uberon:0007100 .
+rc:heart rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0007100 ] .
+rc:heart skos:related uberon:0015230 .
+rc:heart rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0015230 ] .
+
+rc:ANATOMICAL_SYSTEM skos:exactMatch uberon:0000467 .
+rc:ANATOMICAL_SYSTEM rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000467 ] .
+
+rc:amygdala skos:exactMatch uberon:0001876 .
+rc:amygdala rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001876 ] .
+
+rc:bladder skos:narrower uberon:0001255 .
+rc:bladder rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001255 ] .
+rc:bladder skos:broader uberon:0018707 .
+rc:bladder rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0018707 ] .
+
+rc:caudate_nucleus skos:exactMatch uberon:0001873 .
+rc:caudate_nucleus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001873 ] .
+
+rc:cervix skos:narrower uberon:0000002 .
+rc:cervix rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000002 ] .
+
+rc:colon skos:exactMatch uberon:0001155 .
+rc:colon rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001155 ] .
+
+rc:corpus_callosum skos:exactMatch uberon:0002336 .
+rc:corpus_callosum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002336 ] .
+
+rc:diaphragm skos:exactMatch uberon:0001103 .
+rc:diaphragm rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001103 ] .
+
+rc:diencephalon skos:exactMatch uberon:0001894 .
+rc:diencephalon rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001894 ] .
+rc:diencephalon skos:related uberon:0001894 .
+rc:diencephalon rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001894 ] .
+
+rc:duodenum skos:exactMatch uberon:0002114 .
+rc:duodenum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002114 ] .
+
+rc:dura_mater skos:exactMatch uberon:0002363 .
+rc:dura_mater rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002363 ] .
+
+rc:esophagus skos:exactMatch uberon:0001043 .
+rc:esophagus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001043 ] .
+rc:esophagus skos:related uberon:0015232 .
+rc:esophagus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0015232 ] .
+
+rc:eye skos:exactMatch uberon:0000970 .
+rc:eye rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000970 ] .
+rc:eye skos:narrower uberon:0000019 .
+rc:eye rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000019 ] .
+rc:eye skos:related uberon:0010230 .
+rc:eye rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0010230 ] .
+
+rc:frontal_lobe skos:exactMatch uberon:0016525 .
+rc:frontal_lobe rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0016525 ] .
+
+rc:globus_pallidus skos:exactMatch uberon:0001875 .
+rc:globus_pallidus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001875 ] .
+
+rc:hippocampus skos:broader uberon:0002421 .
+rc:hippocampus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002421 ] .
+rc:hippocampus skos:related uberon:0001954 .
+rc:hippocampus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001954 ] .
+rc:hippocampus skos:related uberon:0002961 .
+rc:hippocampus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002961 ] .
+
+rc:insula skos:exactMatch uberon:0002022 .
+rc:insula rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002022 ] .
+
+rc:kidney skos:exactMatch uberon:0002113 .
+rc:kidney rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002113 ] .
+
+rc:left_atrium skos:exactMatch uberon:0002079 .
+rc:left_atrium rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002079 ] .
+
+rc:left_ventricle skos:exactMatch uberon:0002084 .
+rc:left_ventricle rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002084 ] .
+
+rc:locus_coeruleus skos:exactMatch uberon:0002148 .
+rc:locus_coeruleus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002148 ] .
+
+rc:lung skos:exactMatch uberon:0002048 .
+rc:lung rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002048 ] .
+
+rc:lymph_node skos:exactMatch uberon:0000029 .
+rc:lymph_node rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000029 ] .
+
+rc:medial_frontal_gyrus skos:exactMatch uberon:0002702 .
+rc:medial_frontal_gyrus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002702 ] .
+
+rc:medial_temporal_gyrus skos:related uberon:0002771 .
+rc:medial_temporal_gyrus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002771 ] .
+
+rc:medulla_oblongata skos:exactMatch uberon:0001896 .
+rc:medulla_oblongata rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001896 ] .
+
+rc:nucleus_accumbens skos:exactMatch uberon:0001882 .
+rc:nucleus_accumbens rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001882 ] .
+
+rc:occipital_cortex skos:exactMatch uberon:0016540 .
+rc:occipital_cortex rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0016540 ] .
+
+rc:occipital_lobe skos:exactMatch uberon:0002021 .
+rc:occipital_lobe rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002021 ] .
+
+rc:occipital_pole skos:exactMatch uberon:0002902 .
+rc:occipital_pole rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002902 ] .
+
+rc:olfactory_apparatus skos:related uberon:0000004 .
+rc:olfactory_apparatus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000004 ] .
+
+rc:optic_nerve skos:narrower uberon:0000941 .
+rc:optic_nerve rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000941 ] .
+rc:optic_nerve skos:narrower uberon:0004904 .
+rc:optic_nerve rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0004904 ] .
+
+rc:ovary skos:exactMatch uberon:0000992 .
+rc:ovary rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000992 ] .
+
+rc:pancreas skos:exactMatch uberon:0001264 .
+rc:pancreas rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001264 ] .
+rc:pancreas skos:narrower uberon:3011040 .
+rc:pancreas rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:3011040 ] .
+
+rc:paracentral_gyrus skos:exactMatch uberon:0007190 .
+rc:paracentral_gyrus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0007190 ] .
+
+rc:parietal_lobe skos:exactMatch uberon:0001872 .
+rc:parietal_lobe rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001872 ] .
+
+rc:pineal_gland skos:exactMatch uberon:0001905 .
+rc:pineal_gland rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001905 ] .
+
+rc:pituitary_gland skos:exactMatch uberon:0000007 .
+rc:pituitary_gland rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000007 ] .
+
+rc:placenta skos:exactMatch uberon:0001987 .
+rc:placenta rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001987 ] .
+
+rc:pons skos:exactMatch uberon:0000988 .
+rc:pons rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000988 ] .
+
+rc:postcentral_gyrus skos:exactMatch uberon:0002581 .
+rc:postcentral_gyrus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002581 ] .
+rc:postcentral_gyrus skos:related uberon:0013533 .
+rc:postcentral_gyrus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0013533 ] .
+rc:postcentral_gyrus skos:related uberon:0008933 .
+rc:postcentral_gyrus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0008933 ] .
+
+rc:prostate skos:exactMatch uberon:0002367 .
+rc:prostate rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002367 ] .
+
+rc:putamen skos:exactMatch uberon:0001874 .
+rc:putamen rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001874 ] .
+
+rc:rectum skos:exactMatch uberon:0001052 .
+rc:rectum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001052 ] .
+rc:rectum skos:broader uberon:0006866 .
+rc:rectum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0006866 ] .
+
+rc:retina skos:exactMatch uberon:0000966 .
+rc:retina rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000966 ] .
+
+rc:salivary_gland skos:exactMatch uberon:0001044 .
+rc:salivary_gland rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001044 ] .
+
+rc:skeletal_muscle skos:narrower uberon:0014892 .
+rc:skeletal_muscle rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0014892 ] .
+rc:skeletal_muscle skos:narrower uberon:0001134 .
+rc:skeletal_muscle rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001134 ] .
+rc:skeletal_muscle skos:related uberon:0014895 .
+rc:skeletal_muscle rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0014895 ] .
+
+rc:skin skos:exactMatch uberon:0000014 .
+rc:skin rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000014 ] .
+rc:skin skos:narrower uberon:0001003 .
+rc:skin rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001003 ] .
+rc:skin skos:related uberon:0002097 .
+rc:skin rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002097 ] .
+rc:skin skos:related uberon:0002199 .
+rc:skin rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002199 ] .
+
+rc:small_intestine skos:exactMatch uberon:0002108 .
+rc:small_intestine rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002108 ] .
+rc:small_intestine skos:exactMatch uberon:0002108 .
+rc:small_intestine rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002108 ] .
+
+rc:smooth_muscle skos:exactMatch uberon:0000953 .
+rc:smooth_muscle rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000953 ] .
+rc:smooth_muscle skos:exactMatch uberon:0001135 .
+rc:smooth_muscle rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001135 ] .
+
+rc:spleen skos:exactMatch uberon:0002106 .
+rc:spleen rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002106 ] .
+
+rc:stomach skos:exactMatch uberon:0000945 .
+rc:stomach rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000945 ] .
+
+rc:substantia_nigra skos:exactMatch uberon:0002038 .
+rc:substantia_nigra rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002038 ] .
+
+rc:temporal_lobe skos:exactMatch uberon:0001871 .
+rc:temporal_lobe rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001871 ] .
+
+rc:testis skos:exactMatch uberon:0000473 .
+rc:testis rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000473 ] .
+
+rc:thalamus skos:narrower uberon:0001897 .
+rc:thalamus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001897 ] .
+
+rc:throat skos:exactMatch uberon:0000341 .
+rc:throat rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000341 ] .
+
+rc:thymus skos:exactMatch uberon:0002370 .
+rc:thymus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002370 ] .
+
+rc:thyroid skos:exactMatch uberon:0002046 .
+rc:thyroid rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002046 ] .
+
+rc:tongue skos:exactMatch uberon:0001723 .
+rc:tongue rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001723 ] .
+
+rc:tonsil skos:exactMatch uberon:0002372 .
+rc:tonsil rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002372 ] .
+rc:tonsil skos:narrower uberon:0002373 .
+rc:tonsil rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002373 ] .
+
+rc:trachea skos:exactMatch uberon:0003126 .
+rc:trachea rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0003126 ] .
+rc:trachea skos:narrower uberon:0003127 .
+rc:trachea rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0003127 ] .
+
+rc:umbilical_cord skos:exactMatch uberon:0002331 .
+rc:umbilical_cord rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002331 ] .
+
+rc:uterus skos:exactMatch uberon:0000995 .
+rc:uterus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000995 ] .
+rc:uterus skos:narrower uberon:0006834 .
+rc:uterus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0006834 ] .
+
+rc:cartilage skos:related uberon:0007844 .
+rc:cartilage rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0007844 ] .
+rc:cartilage skos:related uberon:0002418 .
+rc:cartilage rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002418 ] .
+
+rc:bile_duct skos:exactMatch uberon:0002394 .
+rc:bile_duct rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002394 ] .
+
+rc:gum skos:exactMatch uberon:0001828 .
+rc:gum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001828 ] .
+
+rc:nasal_cavity skos:exactMatch uberon:0001707 .
+rc:nasal_cavity rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001707 ] .
+
+rc:choroid_plexus skos:exactMatch uberon:0001886 .
+rc:choroid_plexus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001886 ] .
+
+rc:periodontal_ligament skos:exactMatch uberon:0008266 .
+rc:periodontal_ligament rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0008266 ] .
+rc:periodontal_ligament skos:related uberon:0001758 .
+rc:periodontal_ligament rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001758 ] .
+
+rc:pulmonary_artery skos:exactMatch uberon:0002012 .
+rc:pulmonary_artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002012 ] .
+
+rc:mediastinum skos:exactMatch uberon:0003728 .
+rc:mediastinum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0003728 ] .
+
+rc:hair_follicle skos:exactMatch uberon:0002073 .
+rc:hair_follicle rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002073 ] .
+
+rc:meninges skos:exactMatch uberon:0010743 .
+rc:meninges rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0010743 ] .
+
+rc:bone_marrow skos:exactMatch uberon:0002371 .
+rc:bone_marrow rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002371 ] .
+
+rc:mesothelium skos:exactMatch uberon:0001136 .
+rc:mesothelium rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001136 ] .
+
+rc:pelvis skos:exactMatch uberon:0002355 .
+rc:pelvis rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002355 ] .
+
+rc:bone skos:related uberon:0002481 .
+rc:bone rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002481 ] .
+rc:bone skos:related uberon:0001474 .
+rc:bone rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001474 ] .
+
+rc:omentum skos:exactMatch uberon:0003688 .
+rc:omentum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0003688 ] .
+
+rc:parotid_gland skos:exactMatch uberon:0001831 .
+rc:parotid_gland rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001831 ] .
+
+rc:peripheral_nervous_system skos:exactMatch uberon:0000010 .
+rc:peripheral_nervous_system rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000010 ] .
+
+rc:brachiocephalic_artery skos:exactMatch uberon:0001529 .
+rc:brachiocephalic_artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001529 ] .
+
+rc:carotid_artery skos:exactMatch uberon:0005396 .
+rc:carotid_artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0005396 ] .
+rc:carotid_artery skos:narrower uberon:0001530 .
+rc:carotid_artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001530 ] .
+
+rc:coronary_artery skos:exactMatch uberon:0001621 .
+rc:coronary_artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001621 ] .
+
+rc:subclavian_artery skos:exactMatch uberon:0001533 .
+rc:subclavian_artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001533 ] .
+
+rc:umbilical_artery skos:exactMatch uberon:0001310 .
+rc:umbilical_artery rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001310 ] .
+
+rc:synovium skos:exactMatch uberon:0007616 .
+rc:synovium rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0007616 ] .
+rc:synovium skos:narrower uberon:0011233 .
+rc:synovium rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0011233 ] .
+rc:synovium skos:narrower uberon:0002018 .
+rc:synovium rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002018 ] .
+
+rc:tendon skos:exactMatch uberon:0000043 .
+rc:tendon rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000043 ] .
+
+rc:nasal_septum skos:exactMatch uberon:0001706 .
+rc:nasal_septum rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001706 ] .
+
+rc:endometrium skos:exactMatch uberon:0001295 .
+rc:endometrium rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001295 ] .
+rc:endometrium skos:related uberon:0002450 .
+rc:endometrium rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002450 ] .
+
+rc:vulva skos:exactMatch uberon:0000997 .
+rc:vulva rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000997 ] .
+
+rc:gall_bladder skos:exactMatch uberon:0002110 .
+rc:gall_bladder rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002110 ] .
+rc:gall_bladder skos:exactMatch uberon:0002110 .
+rc:gall_bladder rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002110 ] .
+
+rc:sinus skos:narrower uberon:0001825 .
+rc:sinus rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001825 ] .
+
+rc:thorax skos:exactMatch uberon:0000915 .
+rc:thorax rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000915 ] .
+rc:thorax skos:related uberon:0001443 .
+rc:thorax rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001443 ] .
+
+rc:palate skos:narrower uberon:0001716 .
+rc:palate rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001716 ] .
+rc:palate skos:related uberon:0007375 .
+rc:palate rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0007375 ] .
+rc:palate skos:related uberon:0012316 .
+rc:palate rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0012316 ] .
+
+rc:pharynx skos:exactMatch uberon:0006562 .
+rc:pharynx rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0006562 ] .
+rc:pharynx skos:narrower uberon:0001042 .
+rc:pharynx rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0001042 ] .
+
+rc:neck skos:exactMatch uberon:0000974 .
+rc:neck rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000974 ] .
+
+rc:intestine skos:exactMatch uberon:0000160 .
+rc:intestine rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000160 ] .
+
+rc:connective_tissue skos:exactMatch uberon:0002384 .
+rc:connective_tissue rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0002384 ] .
+
+rc:chorion skos:exactMatch uberon:0003124 .
+rc:chorion rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0003124 ] .
+rc:chorion skos:related uberon:0000920 .
+rc:chorion rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/uberon.owl> ; rco:xrefIdent uberon:0000920 ] .
+
+}

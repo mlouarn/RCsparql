@@ -1,0 +1,478 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
+
+@prefix doid: <http://purl.obolibrary.org/obo/DOID_> .
+
+@prefix rc: <http://regulatorycircuits.org/data/> .
+@prefix rcg: <http://regulatorycircuits.org/graph/> .
+@prefix rco: <http://regulatorycircuits.org/ontology/> .
+#@prefix rco: <http://regulatorycircuits.org/data/> .
+
+GRAPH rcg:experimentalContext {
+
+rc:acantholytic_squamous_carcinoma_cell_line skos:exactMatch doid:7643 .
+doid:7643 rdfs:label "acantholytic squamous cell skin carcinoma" .
+rc:acantholytic_squamous_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:7643 ] .
+
+rc:acute_lymphoblastic_leukemia_B-ALL_cell_line skos:exactMatch doid:9952 .
+doid:9952 rdfs:label "acute lymphoblastic leukemia" .
+rc:acute_lymphoblastic_leukemia_B-ALL_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9952 ] .
+
+rc:acute_lymphoblastic_leukemia_T-ALL_cell_line skos:exactMatch doid:9952 .
+doid:9952 rdfs:label "acute lymphoblastic leukemia" .
+rc:acute_lymphoblastic_leukemia_T-ALL_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9952 ] .
+
+rc:acute_myeloid_leukemia_FAB_M0_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M0_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:acute_myeloid_leukemia_FAB_M1_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M1_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:acute_myeloid_leukemia_FAB_M2_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M2_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:acute_myeloid_leukemia_FAB_M3_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M3_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:acute_myeloid_leukemia_FAB_M4_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M4_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:acute_myeloid_leukemia_FAB_M4eo_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M4eo_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:acute_myeloid_leukemia_FAB_M5_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M5_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:acute_myeloid_leukemia_FAB_M6_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M6_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:acute_myeloid_leukemia_FAB_M7_cell_line skos:exactMatch doid:9119 .
+doid:9119 rdfs:label "acute myeloid leukemia" .
+rc:acute_myeloid_leukemia_FAB_M7_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9119 ] .
+
+rc:adenocarcinoma_cell_line skos:exactMatch doid:299 .
+doid:299 rdfs:label "adenocarcinoma" .
+rc:adenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:299 ] .
+
+rc:adrenal_cortex_adenocarcinoma_cell_line skos:exactMatch doid:3959 .
+doid:3959 rdfs:label "adrenal cortical adenocarcinoma" .
+rc:adrenal_cortex_adenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3959 ] .
+
+rc:adult_T-cell_leukemia_cell_line skos:exactMatch doid:715 .
+doid:715 rdfs:label "T-cell lymphoblastic leukemia/lymphoma" .
+rc:adult_T-cell_leukemia_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:715 ] .
+
+rc:alveolar_cell_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:alveolar_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:anaplastic_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:anaplastic_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:anaplastic_large_cell_lymphoma_cell_line skos:exactMatch doid:0050744 .
+doid:0050744 rdfs:label "anaplastic large cell lymphoma" .
+rc:anaplastic_large_cell_lymphoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0050744 ] .
+
+rc:anaplastic_squamous_cell_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:anaplastic_squamous_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:argyrophil_small_cell_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:argyrophil_small_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:astrocytoma_cell_line skos:exactMatch doid:3069 .
+doid:3069 rdfs:label "malignant astrocytoma" .
+rc:astrocytoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3069 ] .
+
+rc:basal_cell_carcinoma_cell_line skos:exactMatch doid:2513 .
+doid:2513 rdfs:label "basal cell carcinoma" .
+rc:basal_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:2513 ] .
+
+rc:bile_duct_carcinoma_cell_line skos:exactMatch doid:4897 .
+doid:4897 rdfs:label "bile duct carcinoma" .
+rc:bile_duct_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4897 ] .
+
+rc:biphenotypic_B_myelomonocytic_leukemia_cell_line skos:broader doid:8692 .
+doid:8692 rdfs:label "myeloid leukemia" .
+rc:biphenotypic_B_myelomonocytic_leukemia_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:8692 ] .
+
+rc:breast_carcinoma_cell_line skos:exactMatch doid:3459 .
+doid:3459 rdfs:label "breast carcinoma" .
+rc:breast_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3459 ] .
+
+rc:bronchial_squamous_cell_carcinoma_cell_line skos:broader doid:3904 .
+doid:3904 rdfs:label "bronchus carcinoma" .
+rc:bronchial_squamous_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3904 ] .
+rc:bronchial_squamous_cell_carcinoma_cell_line skos:broader doid:1749 .
+doid:1749 rdfs:label "squamous cell carcinoma" .
+rc:bronchial_squamous_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1749 ] .
+
+rc:bronchioalveolar_carcinoma_cell_line skos:broader doid:3904 .
+doid:3904 rdfs:label "bronchus carcinoma" .
+rc:bronchioalveolar_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3904 ] .
+
+rc:bronchogenic_carcinoma_cell_line skos:broader doid:3904 .
+doid:3904 rdfs:label "bronchus carcinoma" .
+rc:bronchogenic_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3904 ] .
+
+rc:Burkitts_lymphoma_cell_line skos:exactMatch doid:8584 .
+doid:8584 rdfs:label "Burkitt lymphoma" .
+rc:Burkitts_lymphoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:8584 ] .
+
+rc:carcinoid_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:carcinoid_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:carcinosarcoma_cell_line skos:exactMatch doid:4236 .
+doid:4236 rdfs:label "carcinosarcoma" .
+rc:carcinosarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4236 ] .
+
+rc:cervical_cancer_cell_line skos:exactMatch doid:4362 .
+doid:4362 rdfs:label "cervical cancer" .
+rc:cervical_cancer_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4362 ] .
+
+rc:cholangiocellular_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:cholangiocellular_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:choriocarcinoma__cell_line skos:exactMatch doid:3594 .
+doid:3594 rdfs:label "choriocarcinoma" .
+rc:choriocarcinoma__cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3594 ] .
+
+rc:chronic_lymphocytic_leukemia_T-CLL_cell_line skos:exactMatch doid:1040 .
+doid:1040 rdfs:label "chronic lymphocytic leukemia" .
+rc:chronic_lymphocytic_leukemia_T-CLL_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1040 ] .
+
+rc:chronic_myelogenous_leukemia_CML_cell_line skos:exactMatch doid:1040 .
+doid:1040 rdfs:label "chronic lymphocytic leukemia" .
+rc:chronic_myelogenous_leukemia_CML_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1040 ] .
+
+rc:clear_cell_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:clear_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:colon_carcinoma_cell_line skos:exactMatch doid:1520 .
+doid:1520 rdfs:label "colon carcinoma" .
+rc:colon_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1520 ] .
+
+rc:diffuse_large_B-cell_lymphoma_cell_line skos:exactMatch doid:0050745 .
+doid:0050745 rdfs:label "diffuse large B-cell lymphoma" .
+rc:diffuse_large_B-cell_lymphoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0050745 ] .
+
+rc:ductal_cell_carcinoma_cell_line skos:exactMatch doid:0060074 .
+doid:0060074 rdfs:label "ductal carcinoma in situ" .
+rc:ductal_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0060074 ] .
+
+rc:endometrial_cancer_cell_line skos:exactMatch doid:1380 .
+doid:1380 rdfs:label "endometrial cancer" .
+rc:endometrial_cancer_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1380 ] .
+
+rc:epidermoid_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:epidermoid_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:epitheloid_cancer_cell_line skos:broader doid:162 .
+doid:162 rdfs:label "cancer" .
+rc:epitheloid_cancer_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:162 ] .
+
+rc:Ewings_sarcoma_cell_line skos:exactMatch doid:3369 .
+doid:3369 rdfs:label "Ewing sarcoma" .
+rc:Ewings_sarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3369 ] .
+
+rc:extraskeletal_myxoid_chondrosarcoma_cell_line skos:exactMatch doid:6496 .
+doid:6496 rdfs:label "extraskeletal myxoid chondrosarcoma" .
+rc:extraskeletal_myxoid_chondrosarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:6496 ] .
+
+rc:fibrosarcoma_cell_line skos:exactMatch doid:3365 .
+doid:3365 rdfs:label "fibrosarcoma" .
+rc:fibrosarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3365 ] .
+
+rc:fibrous_histiocytoma_cell_line skos:exactMatch doid:4415 .
+doid:4415 rdfs:label "fibrous histiocytoma" .
+rc:fibrous_histiocytoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4415 ] .
+
+rc:gall_bladder_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:gall_bladder_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:gastric_cancer_cell_line skos:exactMatch doid:10534 .
+doid:10534 rdfs:label "stomach cancer" .
+rc:gastric_cancer_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:10534 ] .
+
+rc:glassy_cell_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:glassy_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:glioma_cell_line skos:exactMatch doid:0060108 .
+doid:0060108 rdfs:label "brain glioma" .
+rc:glioma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0060108 ] .
+
+rc:granulosa_cell_tumor_cell_line skos:exactMatch doid:2999 .
+doid:2999 rdfs:label "granulosa cell tumor" .
+rc:granulosa_cell_tumor_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:2999 ] .
+
+rc:hairy_cell_leukemia_cell_line skos:exactMatch doid:285 .
+doid:285 rdfs:label "hairy cell leukemia" .
+rc:hairy_cell_leukemia_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:285 ] .
+
+rc:hepatic_mesenchymal_tumor_cell_line skos:broader doid:3571 .
+doid:3571 rdfs:label "liver cancer" .
+rc:hepatic_mesenchymal_tumor_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3571 ] .
+
+rc:hepatoblastoma_cell_line skos:exactMatch doid:687 .
+doid:687 rdfs:label "hepatoblastoma" .
+rc:hepatoblastoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:687 ] .
+
+rc:hepatocellular_carcinoma_cell_line skos:exactMatch doid:684 .
+doid:684 rdfs:label "hepatocellular carcinoma" .
+rc:hepatocellular_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:684 ] .
+
+rc:hereditary_spherocytic_anemia_cell_line skos:broader doid:2355 .
+doid:2355 rdfs:label "anemia" .
+rc:hereditary_spherocytic_anemia_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:2355 ] .
+
+rc:Hodgkins_lymphoma_cell_line skos:exactMatch doid:8567 .
+doid:8567 rdfs:label "Hodgkin's lymphoma" .
+rc:Hodgkins_lymphoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:8567 ] .
+
+rc:keratoacanthoma_cell_line skos:exactMatch doid:3149 .
+doid:3149 rdfs:label "Keratoacanthoma" .
+rc:keratoacanthoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3149 ] .
+
+rc:large_cell_lung_carcinoma_cell_line skos:exactMatch doid:4556 .
+doid:4556 rdfs:label "lung large cell carcinoma" .
+rc:large_cell_lung_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4556 ] .
+
+rc:large_cell_non-keratinizing_squamous_carcinoma_cell_line skos:broader doid:1749 .
+doid:1749 rdfs:label "squamous cell carcinoma" .
+rc:large_cell_non-keratinizing_squamous_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1749 ] .
+
+rc:leiomyoma_cell_line skos:exactMatch doid:127 .
+doid:127 rdfs:label "leiomyoma" .
+rc:leiomyoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:127 ] .
+
+rc:leukemia-_chronic_megakaryoblastic__cell_line skos:exactMatch doid:1240 .
+doid:1240 rdfs:label "leukemia" .
+rc:leukemia-_chronic_megakaryoblastic__cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1240 ] .
+
+rc:liposarcoma_cell_line skos:exactMatch doid:3382 .
+doid:3382 rdfs:label "liposarcoma" .
+rc:liposarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3382 ] .
+
+rc:lung_adenocarcinoma_cell_line skos:exactMatch doid:3910 .
+doid:3910 rdfs:label "lung adenocarcinoma" .
+rc:lung_adenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3910 ] .
+
+rc:lymphoma-_malignant-_hairy_B-cell_cell_line skos:broader doid:0060058 .
+doid:0060058 rdfs:label "lymphoma" .
+rc:lymphoma-_malignant-_hairy_B-cell_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0060058 ] .
+
+rc:maxillary_sinus_tumor_cell_line skos:exactMatch doid:1357 .
+doid:1357 rdfs:label "maxillary sinus cancer" .
+rc:maxillary_sinus_tumor_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1357 ] .
+
+rc:medulloblastoma_cell_line skos:exactMatch doid:0050902 .
+doid:0050902 rdfs:label "medulloblastoma" .
+rc:medulloblastoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0050902 ] .
+
+rc:melanoma_cell_line skos:exactMatch doid:1909 .
+doid:1909 rdfs:label "melanoma" .
+rc:melanoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1909 ] .
+
+rc:meningioma_cell_line skos:exactMatch doid:3565 .
+doid:3565 rdfs:label "meningioma" .
+rc:meningioma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3565 ] .
+
+rc:merkel_cell_carcinoma_cell_line skos:exactMatch doid:3965 .
+doid:3965 rdfs:label "Merkel cell carcinoma" .
+rc:merkel_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3965 ] .
+
+rc:mucinous_adenocarcinoma_cell_line skos:exactMatch doid:3030 .
+doid:3030 rdfs:label "mucinous adenocarcinoma" .
+rc:mucinous_adenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3030 ] .
+
+rc:mycosis_fungoides-_T_cell_lymphoma_cell_line skos:broader doid:0060058 .
+doid:0060058 rdfs:label "lymphoma" .
+rc:mycosis_fungoides-_T_cell_lymphoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0060058 ] .
+
+rc:myeloma_cell_line skos:exactMatch doid:0070004 .
+doid:0070004 rdfs:label "myeloid neoplasm" .
+rc:myeloma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0070004 ] .
+
+rc:myxofibrosarcoma_cell_line skos:exactMatch doid:0080534 .
+doid:0080534 rdfs:label "myxofibrosarcoma" .
+rc:myxofibrosarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0080534 ] .
+
+rc:neuroblastoma_cell_line skos:exactMatch doid:769 .
+doid:769 rdfs:label "neuroblastoma" .
+rc:neuroblastoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:769 ] .
+
+rc:neuroectodermal_tumor_cell_line skos:exactMatch doid:171 .
+doid:171 rdfs:label "neuroectodermal tumor" .
+rc:neuroectodermal_tumor_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:171 ] .
+
+rc:NK_T_cell_leukemia_cell_line skos:exactMatch doid:1240 .
+doid:1240 rdfs:label "leukemia" .
+rc:NK_T_cell_leukemia_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1240 ] .
+
+rc:non_T_non_B_acute_lymphoblastic_leukemia_ALL_cell_line skos:exactMatch doid:9952 .
+doid:9952 rdfs:label "acute lymphoblastic leukemia" .
+rc:non_T_non_B_acute_lymphoblastic_leukemia_ALL_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:9952 ] .
+
+rc:oral_squamous_cell_carcinoma_cell_line skos:exactMatch doid:1749 .
+doid:1749 rdfs:label "squamous cell carcinoma" .
+rc:oral_squamous_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1749 ] .
+
+rc:osteoclastoma_cell_line skos:exactMatch doid:4305 .
+doid:4305 rdfs:label "bone giant cell tumor" .
+rc:osteoclastoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4305 ] .
+
+rc:osteosarcoma_cell_line skos:exactMatch doid:3347 .
+doid:3347 rdfs:label "osteosarcoma" .
+rc:osteosarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3347 ] .
+
+rc:pagetoid_sarcoma_cell_line skos:broader doid:1115 .
+doid:1115 rdfs:label "sarcoma" .
+rc:pagetoid_sarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1115 ] .
+
+rc:pancreatic_carcinoma_cell_line skos:exactMatch doid:4905 .
+doid:4905 rdfs:label "pancreatic carcinoma" .
+rc:pancreatic_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4905 ] .
+
+rc:papillary_adenocarcinoma_cell_line skos:broader doid:299 .
+doid:299 rdfs:label "adenocarcinoma" .
+rc:papillary_adenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:299 ] .
+
+rc:papillotubular_adenocarcinoma_cell_line skos:broader doid:299 .
+doid:299 rdfs:label "adenocarcinoma" .
+rc:papillotubular_adenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:299 ] .
+
+rc:peripheral_neuroectodermal_tumor_cell_line skos:broader doid:171 .
+doid:171 rdfs:label "neuroectodermal tumor" .
+rc:peripheral_neuroectodermal_tumor_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:171 ] .
+
+rc:pharyngeal_carcinoma_cell_line skos:broader doid:305 .
+doid:305 rdfs:label "carcinoma" .
+rc:pharyngeal_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:305 ] .
+
+rc:plasma_cell_leukemia_cell_line skos:exactMatch doid:1240 .
+doid:1240 rdfs:label "leukemia" .
+rc:plasma_cell_leukemia_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1240 ] .
+
+rc:pleomorphic_hepatocellular_carcinoma_cell_line skos:broader doid:5662 .
+doid:5662 rdfs:label "pleomorphic carcinoma" .
+rc:pleomorphic_hepatocellular_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:5662 ] .
+rc:pleomorphic_hepatocellular_carcinoma_cell_line skos:broader doid:684 .
+doid:684 rdfs:label "hepatocellular carcinoma" .
+rc:pleomorphic_hepatocellular_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:684 ] .
+
+rc:prostate_cancer_cell_line skos:exactMatch doid:10283 .
+doid:10283 rdfs:label "prostate cancer" .
+rc:prostate_cancer_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:10283 ] .
+
+rc:rectal_cancer_cell_line skos:exactMatch doid:1993 .
+doid:1993 rdfs:label "rectum cancer" .
+rc:rectal_cancer_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1993 ] .
+
+rc:renal_cell_carcinoma_cell_line skos:exactMatch doid:4450 .
+doid:4450 rdfs:label "renal cell carcinoma" .
+rc:renal_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4450 ] .
+
+rc:retinoblastoma_cell_line skos:exactMatch doid:768 .
+doid:768 rdfs:label "retinoblastoma" .
+rc:retinoblastoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:768 ] .
+
+rc:sacrococcigeal_teratoma_cell_line skos:exactMatch doid:3307 .
+doid:3307 rdfs:label "teratoma" .
+rc:sacrococcigeal_teratoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3307 ] .
+
+rc:serous_adenocarcinoma_cell_line skos:exactMatch doid:299 .
+doid:299 rdfs:label "adenocarcinoma" .
+rc:serous_adenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:299 ] .
+
+rc:serous_cystadenocarcinoma_cell_line skos:exactMatch doid:3111 .
+doid:3111 rdfs:label "cystadenocarcinoma" .
+rc:serous_cystadenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3111 ] .
+
+rc:signet_ring_carcinoma_cell_line skos:exactMatch doid:4304 .
+doid:4304 rdfs:label "signet ring basal cell carcinoma" .
+rc:signet_ring_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4304 ] .
+
+rc:small_cell_cervical_cancer_cell_line skos:broader doid:4362 .
+doid:4362 rdfs:label "cervical cancer" .
+rc:small_cell_cervical_cancer_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4362 ] .
+
+rc:small_cell_gastrointestinal_carcinoma_cell_line skos:broader doid:0050922 .
+doid:0050922 rdfs:label "gastrointestinal carcinoma" .
+rc:small_cell_gastrointestinal_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:0050922 ] .
+
+rc:small_cell_lung_carcinoma_cell_line skos:broader doid:5409 .
+doid:5409 rdfs:label "lung small cell carcinoma" .
+rc:small_cell_lung_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:5409 ] .
+
+rc:somatostatinoma_cell_line skos:exactMatch doid:4430 .
+doid:4430 rdfs:label "somatostatinoma" .
+rc:somatostatinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4430 ] .
+
+rc:spindle_cell_sarcoma_cell_line skos:exactMatch doid:4235 .
+doid:4235 rdfs:label "spindle cell sarcoma" .
+rc:spindle_cell_sarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4235 ] .
+
+rc:squamous_cell_carcinoma_cell_line skos:exactMatch doid:1749 .
+doid:1749 rdfs:label "squamous cell carcinoma" .
+rc:squamous_cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:1749 ] .
+
+rc:squamous_cell_lung_carcinoma_cell_line skos:exactMatch doid:3907 .
+doid:3907 rdfs:label "lung squamous cell carcinoma" .
+rc:squamous_cell_lung_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3907 ] .
+
+rc:synovial_sarcoma_cell_line skos:exactMatch doid:5485 .
+doid:5485 rdfs:label "synovial sarcoma" .
+rc:synovial_sarcoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:5485 ] .
+
+rc:teratocarcinoma_cell_line skos:exactMatch doid:3305 .
+doid:3305 rdfs:label "teratocarcinoma" .
+rc:teratocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3305 ] .
+
+rc:testicular_germ_cell_embryonal_carcinoma_cell_line skos:broader doid:5557 .
+doid:5557 rdfs:label "testicular germ cell cancer" .
+rc:testicular_germ_cell_embryonal_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:5557 ] .
+rc:testicular_germ_cell_embryonal_carcinoma_cell_line skos:broader doid:3308 .
+doid:3308 rdfs:label "embryonal carcinoma" .
+rc:testicular_germ_cell_embryonal_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3308 ] .
+
+rc:thyroid_carcinoma_cell_line skos:exactMatch doid:3963 .
+doid:3963 rdfs:label "thyroid gland carcinoma" .
+rc:thyroid_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3963 ] .
+
+rc:transitional-cell_carcinoma_cell_line skos:exactMatch doid:2671 .
+doid:2671 rdfs:label "transitional cell carcinoma" .
+rc:transitional-cell_carcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:2671 ] .
+
+rc:tridermal_teratoma_cell_line skos:broader doid:3307 .
+doid:3307 rdfs:label "teratoma" .
+rc:tridermal_teratoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:3307 ] .
+
+rc:tubular_adenocarcinoma_cell_line skos:exactMatch doid:4929 .
+doid:4929 rdfs:label "tubular adenocarcinoma" .
+rc:tubular_adenocarcinoma_cell_line rco:xref [ rco:xrefSource <http://purl.obolibrary.org/obo/doid.owl> ; rco:xrefIdent doid:4929 ] .
+
+}
+
