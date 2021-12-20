@@ -1,0 +1,18 @@
+sample 	sampleLabel 	circuit 	circuitLabel 	circuitDisease 	circuitDiseaseLabel 
+CNhs11252 	squamous cell carcinoma cell line:EC-GI-10 	squamous_cell_carcinoma_cell_line 	squamous cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_1749 	squamous cell carcinoma 
+CNhs11739 	squamous cell carcinoma cell line:T3M-5 	squamous_cell_carcinoma_cell_line 	squamous cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_1749 	squamous cell carcinoma 
+CNhs11825 	large cell non-keratinizing squamous carcinoma cell line:SKG-II-SF 	large_cell_non-keratinizing_squamous_carcinoma_cell_line 	large cell non-keratinizing squamous carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_1749 	squamous cell carcinoma 
+CNhs11716 	papillary adenocarcinoma cell line:8505C 	papillary_adenocarcinoma_cell_line 	papillary adenocarcinoma cell line 	http://purl.obolibrary.org/obo/DOID_299 	adenocarcinoma 
+CNhs11933 	pleomorphic hepatocellular carcinoma cell line:SNU-387 	pleomorphic_hepatocellular_carcinoma_cell_line 	pleomorphic hepatocellular carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_5662 	pleomorphic carcinoma 
+CNhs11746 	serous adenocarcinoma cell line:JHOS-2 	serous_adenocarcinoma_cell_line 	serous adenocarcinoma cell line 	http://purl.obolibrary.org/obo/DOID_299 	adenocarcinoma 
+CNhs13099 	serous adenocarcinoma cell line:SK-OV-3-R	serous_adenocarcinoma_cell_line 	serous adenocarcinoma cell line 	http://purl.obolibrary.org/obo/DOID_299 	adenocarcinoma 
+CNhs13508 	serous adenocarcinoma cell line:SK-OV-3-R after co-culture with SOC-57-02-G	serous_adenocarcinoma_cell_line 	serous adenocarcinoma cell line 	http://purl.obolibrary.org/obo/DOID_299 	adenocarcinoma 
+CNhs10734 	papillotubular adenocarcinoma cell line:TGBC18TKB 	papillotubular_adenocarcinoma_cell_line 	papillotubular adenocarcinoma cell line 	http://purl.obolibrary.org/obo/DOID_299 	adenocarcinoma 
+CNhs11862 	bronchial squamous cell carcinoma cell line:KNS-62 	bronchial_squamous_cell_carcinoma_cell_line 	bronchial squamous cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_1749 	squamous cell carcinoma 
+CNhs11882 	adenocarcinoma cell line:IM95m 	adenocarcinoma_cell_line 	adenocarcinoma cell line 	http://purl.obolibrary.org/obo/DOID_299 	adenocarcinoma 
+CNhs10752 	oral squamous cell carcinoma cell line:Ca9-22 	oral_squamous_cell_carcinoma_cell_line 	oral squamous cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_1749 	squamous cell carcinoma 
+CNhs11717 	oral squamous cell carcinoma cell line:HSC-3 	oral_squamous_cell_carcinoma_cell_line 	oral squamous cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_1749 	squamous cell carcinoma 
+CNhs11287 	oral squamous cell carcinoma cell line:HO-1-u-1 	oral_squamous_cell_carcinoma_cell_line 	oral squamous cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_1749 	squamous cell carcinoma 
+CNhs11810 	oral squamous cell carcinoma cell line:SAS 	oral_squamous_cell_carcinoma_cell_line 	oral squamous cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_1749 	squamous cell carcinoma 
+CNhs10735 	transitional-cell carcinoma cell line:5637 	transitional-cell_carcinoma_cell_line 	transitional-cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_2671 	transitional cell carcinoma 
+CNhs11261 	transitional-cell carcinoma cell line:JMSU1 	transitional-cell_carcinoma_cell_line 	transitional-cell carcinoma cell line 	http://purl.obolibrary.org/obo/DOID_2671 	transitional cell carcinoma 
