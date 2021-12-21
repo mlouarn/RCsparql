@@ -25,6 +25,6 @@ A Virtuoso endpoint is available at https://regulatorycircuits-lod.genouest.org/
 Louarn, M., Chatonnet, F., Garnier, X., Fest, T., Siegel, A., Dameron, O.
 
 ## Data provenance:
-Original data used are extracted from the paper: Tissue-specific regulatory circuits reveal variable modular perturbations across complex diseases. Marbach D, Lamparter D, Quon G, Kellis M, Kutalik Z, and Bergmann S. Nature Methods, 13, 366-370, 2016 (http://www.regulatorycircuits.org/) as of October 2021 the website is down but can accessed through https://web.archive.org/web/20210228000953/http://regulatorycircuits.org/ the data can still be retrieve using:
+Original data used are extracted from the paper: Tissue-specific regulatory circuits reveal variable modular perturbations across complex diseases. Marbach D, Lamparter D, Quon G, Kellis M, Kutalik Z, and Bergmann S. Nature Methods, 13, 366-370, 2016 (http://www.regulatorycircuits.org/) as of October 2021 the website is down but can accessed through <a href="https://web.archive.org/web/20210228000953/http://regulatorycircuits.org/">Web archive</a> the data can still be retrieve using:
 <a href="https://web.archive.org/web/20190905164203/http://www2.unil.ch/cbg/regulatorycircuits/Supplementary_data.zip">Supplementary_data.zip</a>
  and <a href="https://web.archive.org/web/20190905164203/http://www2.unil.ch/cbg/regulatorycircuits/FANTOM5_individual_networks.tar">FANTOM5_individual_networks.tar</a>
