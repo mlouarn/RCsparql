@@ -1,0 +1,395 @@
+Circuit name	disease	qualifier	Disease Ontology	DO identifier		
+acantholytic squamous carcinoma cell line	acantholytic squamous carcinoma	exactMatch	acantholytic squamous cell skin carcinoma	doid:7643		
+acute lymphoblastic leukemia (B-ALL) cell line	acute lymphoblastic leukemia	exactMatch	acute lymphoblastic leukemia	Doid:9952		
+acute lymphoblastic leukemia (T-ALL) cell line	acute lymphoblastic leukemia	exactMatch	acute lymphoblastic leukemia	Doid:9952		
+acute myeloid leukemia (FAB M0) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+acute myeloid leukemia (FAB M1) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+acute myeloid leukemia (FAB M2) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+acute myeloid leukemia (FAB M3) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+acute myeloid leukemia (FAB M4) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+acute myeloid leukemia (FAB M4eo) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+acute myeloid leukemia (FAB M5) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+acute myeloid leukemia (FAB M6) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+acute myeloid leukemia (FAB M7) cell line	acute myeloid leukemia	exactMatch	acute myeloid leukemia	Doid:9119		
+adenocarcinoma cell line	adenocarcinoma	exactMatch	adenocarcinoma	Doid:299		
+Adipocyte - breast						
+Adipocyte - omental						
+Adipocyte - perirenal						
+Adipocyte - subcutaneous						
+adipose tissue, adult						
+adrenal cortex adenocarcinoma cell line	adrenal cortex adenocarcinoma	exactMatch	adrenal cortical adenocarcinoma	Doid:3959		
+adult T-cell leukemia cell line	leukemia or “T-cell leukemia” ?	exactMatch	T-cell lymphoblastic leukemia/lymphoma	Doid:715		
+alveolar cell carcinoma cell line	carcinoma or “alveolar cell carcinoma” ?	broader	carcinoma	Doid:305		
+Alveolar Epithelial Cells						
+Amniotic Epithelial Cells						
+amniotic membrane cells						
+amygdala, adult						
+anaplastic carcinoma cell line	anaplastic carcinoma	broader	carcinoma	Doid:305		
+anaplastic large cell lymphoma cell line	anaplastic large cell lymphoma	exactMatch	anaplastic large cell lymphoma	Doid:0050744		
+anaplastic squamous cell carcinoma cell line	anaplastic squamous cell carcinoma	broader	carcinoma	Doid:305		
+Anulus Pulposus Cell						
+aorta, adult						
+appendix, adult						
+argyrophil small cell carcinoma cell line	“argyrophil small cell carcinoma” or “argyrophil carcinoma” or “small cell carcinoma” ?	broader	carcinoma	Doid:305		
+Astrocyte - cerebellum						
+Astrocyte - cerebral cortex						
+astrocytoma cell line	astrocytoma	exactMatch	malignant astrocytoma	Doid:3069		
+b cell line						
+B lymphoblastoid cell line						
+basal cell carcinoma cell line	basal cell carcinoma	exactMatch	basal cell carcinoma	Doid:2513		
+Basophils						
+bile duct carcinoma cell line	bile duct carcinoma	exactMatch	bile duct carcinoma	Doid:4897		
+biphenotypic B myelomonocytic leukemia cell line	biphenotypic B myelomonocytic leukemia	broader	myeloid leukemia	Doid:8692		
+bladder, adult						
+blood, adult						
+bone marrow stromal cell line						
+brain, adult						
+brain, fetal						
+breast carcinoma cell line	breast carcinoma	exactMatch	breast carcinoma	Doid:3459		
+breast, adult						
+Bronchial Epithelial Cell						
+bronchial squamous cell carcinoma cell line	bronchial squamous cell carcinoma	broader	bronchus carcinoma	Doid:3904	squamous cell carcinoma	Doid:1749
+bronchioalveolar carcinoma cell line	bronchioalveolar carcinoma	broader	bronchus carcinoma	Doid:3904		
+bronchogenic carcinoma cell line	bronchogenic carcinoma	broader	bronchus carcinoma	Doid:3904		
+Burkitt's lymphoma cell line	Burkitt's lymphoma	exactMatch	Burkitt lymphoma	Doid:8584		
+carcinoid cell line	Carcinoma ???	broader	carcinoma	Doid:305		
+carcinosarcoma cell line	carcinosarcoma	exactMatch	carcinosarcoma	Doid:4236		
+Cardiac Myocyte						
+caudate nucleus, adult						
+CD14-CD16+ Monocytes						
+CD14+ Monocytes						
+CD14+CD16- Monocytes						
+CD14+CD16+ Monocytes						
+CD19+ B Cells						
+CD34+ stem cells - adult bone marrow derived						
+CD4+ T Cells						
+CD4+CD25-CD45RA- memory conventional T cells						
+CD4+CD25-CD45RA+ naive conventional T cells						
+CD4+CD25+CD45RA- memory regulatory T cells						
+CD4+CD25+CD45RA+ naive regulatory T cells						
+CD8+ T Cells						
+cerebellum, adult						
+cerebral meninges, adult						
+cervical cancer cell line	“cervical cancer” or “cervix cancer” ?	exactMatch	cervical cancer	Doid:4362		
+cervix, adult						
+cholangiocellular carcinoma cell line	cholangiocellular carcinoma	broader	carcinoma	Doid:305		
+Chondrocyte - de diff						
+Chondrocyte - re diff						
+choriocarcinoma  cell line	choriocarcinoma	exactMatch	choriocarcinoma	Doid:3594		
+chorionic membrane cells						
+chronic lymphocytic leukemia (T-CLL) cell line	chronic lymphocytic leukemia	exactMatch	chronic lymphocytic leukemia	Doid:1040		
+chronic myelogenous leukemia (CML) cell line	chronic lymphocytic leukemia	exactMatch	chronic lymphocytic leukemia	Doid:1040		
+Ciliary Epithelial Cells						
+clear cell carcinoma cell line	clear cell carcinoma	broader	carcinoma	Doid:305		
+Clontech Human Universal Reference Total RNA						
+colon carcinoma cell line	colon carcinoma	exactMatch	colon carcinoma	Doid:1520		
+colon, adult						
+colon, fetal						
+cord blood derived cell line						
+Corneal Epithelial Cells						
+corpus callosum, adult						
+Dendritic Cells - monocyte immature derived						
+Dendritic Cells - plasmacytoid						
+diaphragm, fetal						
+diencephalon, adult						
+diffuse large B-cell lymphoma cell line	diffuse large B-cell lymphoma	exactMatch	diffuse large B-cell lymphoma	Doid:0050745		
+ductal cell carcinoma cell line	ductal cell carcinoma	exactMatch	ductal carcinoma in situ	Doid:0060074		
+ductus deferens, adult						
+duodenum, fetal						
+dura mater, adult						
+embryonic kidney cell line						
+embryonic pancreas cell line						
+endometrial cancer cell line	“endometrial cancer”	exactMatch	endometrial cancer	Doid:1380		
+Endothelial Cells - Aortic						
+Endothelial Cells - Artery						
+Endothelial Cells - Lymphatic						
+Endothelial Cells - Microvascular						
+Endothelial Cells - Thoracic						
+Endothelial Cells - Umbilical vein						
+Endothelial Cells - Vein						
+Endothelial Progenitor Cells						
+epidermoid carcinoma cell line	epidermoid carcinoma	broader	carcinoma	Doid:305		
+epididymis, adult						
+epitheloid cancer cell line	epitheloid cancer	broader	cancer	Doid:162		
+Esophageal Epithelial Cells						
+esophagus, adult						
+Ewing's sarcoma cell line	Ewing's sarcoma	exactMatch	Ewing sarcoma	Doid:3369		
+extraskeletal myxoid chondrosarcoma cell line	extraskeletal myxoid chondrosarcoma	exactMatch	extraskeletal myxoid chondrosarcoma	Doid:6496		
+eye, fetal						
+Fibroblast - Aortic Adventitial						
+Fibroblast - Cardiac						
+Fibroblast - Choroid Plexus						
+Fibroblast - Conjunctival						
+Fibroblast - Dermal						
+Fibroblast - Gingival						
+Fibroblast - Lymphatic						
+Fibroblast - Periodontal Ligament, adult						
+Fibroblast - Periodontal Ligament, fetal						
+Fibroblast - Pulmonary Artery						
+Fibroblast - skin dystrophia myotonica						
+Fibroblast - skin normal						
+Fibroblast - skin spinal muscular atrophy						
+Fibroblast - skin walker warburg						
+fibrosarcoma cell line	fibrosarcoma	exactMatch	fibrosarcoma	Doid:3365		
+fibrous histiocytoma cell line	“fibrous histiocytoma” or “histiocytoma”	exactMatch	fibrous histiocytoma	Doid:4415		
+frontal lobe, adult						
+gall bladder carcinoma cell line	“gall bladder carcinoma” or “carcinoma”	broader	carcinoma	Doid:305		
+gall bladder, adult						
+gastric cancer cell line	gastric cancer	exactMatch	stomach cancer	Doid:10534		
+giant cell carcinoma cell line	giant cell carcinoma	missed				
+Gingival epithelial cells						
+glassy cell carcinoma cell line	glassy cell carcinoma	broader	carcinoma	Doid:305		
+glioma cell line	glioma	exactMatch	brain glioma	Doid:0060108		
+globus pallidus, adult						
+granulosa cell tumor cell line	granulosa cell tumor	exactMatch	granulosa cell tumor	Doid:2999		
+Hair Follicle Dermal Papilla Cells						
+Hair Follicle Outer Root Sheath Cells						
+hairy cell leukemia cell line	hairy cell leukemia	exactMatch	hairy cell leukemia	Doid:285		
+heart - mitral valve, adult						
+heart - pulmonic valve, adult						
+heart - tricuspid valve, adult						
+heart, adult						
+heart, fetal						
+Hep-2 cells						
+hepatic mesenchymal tumor cell line	hepatic mesenchymal tumor	broader	liver cancer	Doid:3571		
+Hepatic Sinusoidal Endothelial Cells						
+Hepatic Stellate Cells (lipocyte)						
+hepatoblastoma cell line	hepatoblastoma	exactMatch	hepatoblastoma	Doid:687		
+hepatocellular carcinoma cell line	hepatocellular carcinoma	exactMatch	hepatocellular carcinoma	Doid:684		
+Hepatocyte						
+hereditary spherocytic anemia cell line	hereditary spherocytic anemia	broader	anemia	Doid:2355		
+hippocampus, adult						
+Hodgkin's lymphoma cell line	Hodgkin's lymphoma	exactMatch	Hodgkin's lymphoma	Doid:8567		
+insula, adult						
+Intestinal epithelial cells (polarized)						
+Iris Pigment Epithelial Cells						
+Keratinocyte - epidermal						
+Keratinocyte - oral						
+keratoacanthoma cell line	Keratoacanthoma ???	exactMatch	Keratoacanthoma	Doid:3149		
+Keratocytes						
+kidney, adult						
+kidney, fetal						
+langerhans cells, immature						
+langerhans cells, migratory						
+large cell lung carcinoma cell line	large cell lung carcinoma	exactMatch	lung large cell carcinoma	Doid:4556		
+large cell non-keratinizing squamous carcinoma cell line	large cell non-keratinizing squamous carcinoma	broader	squamous cell carcinoma	Doid:1749		
+left atrium, adult						
+left ventricle, adult						
+leiomyoblastoma cell line	leiomyoblastoma	missed				
+leiomyoma cell line	leiomyoma	exactMatch	leiomyoma	Doid:127		
+lens epithelial cell line						
+Lens Epithelial Cells						
+leukemia, chronic megakaryoblastic  cell line	leukemia	exactMatch	leukemia	Doid:1240		
+liposarcoma cell line	liposarcoma	exactMatch	liposarcoma	Doid:3382		
+liver, adult						
+liver, fetal						
+locus coeruleus, adult						
+lung adenocarcinoma cell line	lung adenocarcinoma	exactMatch	lung adenocarcinoma	Doid:3910		
+lung, adult						
+lung, fetal						
+lung, right lower lobe, adult						
+lymph node, adult						
+lymphangiectasia cell line	Lymphangiectasia ???	missed				
+lymphoma, malignant, hairy B-cell cell line	“lymphoma, malignant, hairy B-cell” or “lymphoma” ?	broader	lymphoma	Doid:0060058		
+Macrophage - monocyte derived						
+malignant trichilemmal cyst cell line	malignant trichilemmal cyst	missed				
+Mallassez-derived cells						
+Mammary Epithelial Cell						
+Mast cell						
+maxillary sinus tumor cell line	maxillary sinus tumor	exactMatch	maxillary sinus cancer	Doid:1357		
+medial frontal gyrus, adult						
+medial temporal gyrus						
+medial temporal gyrus, adult						
+medulla oblongata, adult						
+medulloblastoma cell line	medulloblastoma	exactMatch	medulloblastoma	Doid:0050902		
+Melanocyte						
+melanoma cell line	melanoma	exactMatch	melanoma	Doid:1909		
+Meningeal Cells						
+meningioma cell line	meningioma	exactMatch	meningioma	Doid:3565		
+merkel cell carcinoma cell line	“merkel cell carcinoma” or “carcinoma”	exactMatch	Merkel cell carcinoma	Doid:3965		
+mesenchymal precursor cell - adipose						
+mesenchymal precursor cell - bone marrow						
+mesenchymal precursor cell - cardiac						
+mesenchymal precursor cell - ovarian cancer left ovary						
+mesenchymal precursor cell - ovarian cancer metastasis						
+mesenchymal precursor cell - ovarian cancer right ovary						
+mesenchymal stem cell line						
+Mesenchymal stem cells - adipose						
+Mesenchymal stem cells - amniotic membrane						
+Mesenchymal stem cells - bone marrow						
+Mesenchymal stem cells - hepatic						
+Mesenchymal stem cells - umbilical						
+Mesenchymal stem cells - Wharton's Jelly						
+Mesothelial Cells						
+mesothelioma cell line	mesothelioma	missed				
+mixed mullerian tumor cell line	mullerian tumor	missed				
+mucinous adenocarcinoma cell line	“mucinous adenocarcinoma” or “adenocarcinoma”	exactMatch	mucinous adenocarcinoma	Doid:3030		
+Multipotent Cord Blood Unrestricted Somatic Stem Cells						
+mycosis fungoides, T cell lymphoma cell line	T cell lymphoma	broader	lymphoma	Doid:0060058		
+myelodysplastic syndrome cell line						
+myeloma cell line	myeloma	exactMatch	myeloid neoplasm	Doid:0070004		
+Myoblast						
+myxofibrosarcoma cell line	myxofibrosarcoma	exactMatch	myxofibrosarcoma	Doid:0080534		
+nasal epithelial cells						
+Natural Killer Cells						
+Neural stem cells						
+neuroblastoma cell line	neuroblastoma	exactMatch	neuroblastoma	Doid:769		
+neuroectodermal tumor cell line	neuroectodermal tumor	exactMatch	neuroectodermal tumor	Doid:171		
+neuroepithelioma cell line	neuroepithelioma	missed				
+neurofibroma cell line	neurofobroma	missed				
+Neurons						
+Neutrophils						
+NK T cell leukemia cell line	leukemia	exactMatch	leukemia	Doid:1240		
+non T non B acute lymphoblastic leukemia (ALL) cell line	acute lymphoblastic leukemia	exactMatch	acute lymphoblastic leukemia	Doid:9952		
+normal embryonic palatal mesenchymal cell line						
+normal intestinal epithelial cell line						
+nucleus accumbens, adult						
+Nucleus Pulposus Cell						
+occipital cortex, adult						
+occipital lobe, adult						
+occipital lobe, fetal						
+occipital pole, adult						
+Olfactory epithelial cells						
+olfactory region, adult						
+optic nerve						
+oral squamous cell carcinoma cell line	squamous cell carcinoma	exactMatch	squamous cell carcinoma	Doid:1749		
+Osteoblast						
+Osteoblast - differentiated						
+osteoclastoma cell line	osteoclastoma	exactMatch	bone giant cell tumor	Doid:4305		
+osteosarcoma cell line	osteosarcoma	exactMatch	osteosarcoma	Doid:3347		
+ovary, adult						
+pagetoid sarcoma cell line	pagetoid sarcoma	broader	sarcoma	Doid:1115		
+pancreas, adult						
+pancreatic carcinoma cell line	pancreatic carcinoma	exactMatch	pancreatic carcinoma	Doid:4905		
+Pancreatic stromal cells						
+papillary adenocarcinoma cell line	adenocarcinoma	broader	adenocarcinoma	Doid:299		
+papillotubular adenocarcinoma cell line	adenocarcinoma	broader	adenocarcinoma	Doid:299		
+paracentral gyrus, adult						
+parietal lobe, adult						
+parietal lobe, fetal						
+parotid gland, adult						
+penis, adult						
+Pericytes						
+Peripheral Blood Mononuclear Cells						
+peripheral neuroectodermal tumor cell line	neuroectodermal tumor	broader	neuroectodermal tumor	Doid:171		
+pharyngeal carcinoma cell line	carcinoma	broader	carcinoma	Doid:305		
+pineal gland, adult						
+pituitary gland, adult						
+placenta, adult						
+Placental Epithelial Cells						
+plasma cell leukemia cell line	leukemia	exactMatch	leukemia	Doid:1240		
+pleomorphic hepatocellular carcinoma cell line	pleomorphic hepatocellular carcinoma	broader	pleomorphic carcinoma	Doid:5662	hepatocellular carcinoma	Doid:684
+pons, adult						
+postcentral gyrus, adult						
+Preadipocyte - breast						
+Preadipocyte - omental						
+Preadipocyte - perirenal						
+Preadipocyte - subcutaneous						
+Preadipocyte - visceral						
+prostate cancer cell line	prostate cancer	exactMatch	prostate cancer	Doid:10283		
+Prostate Epithelial Cells						
+Prostate Stromal Cells						
+prostate, adult						
+putamen, adult						
+rectal cancer cell line	rectal cancer	exactMatch	rectum cancer	Doid:1993		
+rectum, fetal						
+renal cell carcinoma cell line	Carcinoma ???	exactMatch	renal cell carcinoma	Doid:4450		
+Renal Cortical Epithelial Cells						
+Renal Epithelial Cells						
+Renal Glomerular Endothelial Cells						
+Renal Mesangial Cells						
+Renal Proximal Tubular Epithelial Cell						
+Reticulocytes						
+retina, adult						
+Retinal Pigment Epithelial Cells						
+retinoblastoma cell line	retinoblastoma	exactMatch	retinoblastoma	Doid:768		
+rhabdomyosarcoma cell line						
+SABiosciences XpressRef Human Universal Total RNA						
+sacrococcigeal teratoma cell line	teratoma	exactMatch	teratoma	Doid:3307		
+salivary acinar cells						
+salivary gland, adult						
+schwannoma cell line						
+Sebocyte						
+seminal vesicle, adult						
+serous adenocarcinoma cell line	adenocarcinoma	exactMatch	adenocarcinoma	Doid:299		
+serous cystadenocarcinoma cell line	cystadenocarcinoma	exactMatch	cystadenocarcinoma	Doid:3111		
+Sertoli Cells						
+signet ring carcinoma cell line	Carcinoma ???	exactMatch	signet ring basal cell carcinoma	Doid:4304		
+skeletal muscle - soleus muscle						
+Skeletal Muscle Cells						
+Skeletal muscle cells differentiated into Myotubes - multinucleated						
+Skeletal Muscle Satellite Cells						
+skeletal muscle, adult						
+skeletal muscle, fetal						
+skin, fetal						
+Small Airway Epithelial Cells						
+small cell cervical cancer cell line	small cell cervical cancer	broader	cervical cancer	Doid:4362		
+small cell gastrointestinal carcinoma cell line	small cell gastrointestinal carcinoma	broader	gastrointestinal carcinoma	Doid:0050922		
+small cell lung carcinoma cell line	small cell lung carcinoma	broader	lung small cell carcinoma	Doid:5409		
+small intestine, adult						
+small intestine, fetal						
+Smooth Muscle Cells - Aortic						
+Smooth Muscle Cells - Brachiocephalic						
+Smooth Muscle Cells - Brain Vascular						
+Smooth Muscle Cells - Bronchial						
+Smooth Muscle Cells - Carotid						
+Smooth Muscle Cells - Colonic						
+Smooth Muscle Cells - Coronary Artery						
+Smooth Muscle Cells - Esophageal						
+Smooth Muscle Cells - Internal Thoracic Artery						
+Smooth Muscle Cells - Prostate						
+Smooth Muscle Cells - Pulmonary Artery						
+Smooth Muscle Cells - Subclavian Artery						
+Smooth Muscle Cells - Tracheal						
+Smooth Muscle Cells - Umbilical Artery						
+Smooth Muscle Cells - Umbilical Vein						
+Smooth Muscle Cells - Uterine						
+smooth muscle, adult						
+somatostatinoma cell line	somatostatinoma	exactMatch	somatostatinoma	Doid:4430		
+spinal cord, adult						
+spinal cord, fetal						
+spindle cell sarcoma cell line	sarcoma	exactMatch	spindle cell sarcoma	Doid:4235		
+spleen, adult						
+spleen, fetal						
+splenic lymphoma with villous lymphocytes cell line						
+squamous cell carcinoma cell line	squamous cell carcinoma	exactMatch	squamous cell carcinoma	Doid:1749		
+squamous cell lung carcinoma cell line	lung squamous cell carcinoma	exactMatch	lung squamous cell carcinoma	Doid:3907		
+stomach, fetal						
+submaxillary gland, adult						
+substantia nigra, adult						
+synovial sarcoma cell line	sarcoma	exactMatch	synovial sarcoma	Doid:5485		
+Synoviocyte						
+temporal lobe, adult						
+temporal lobe, fetal						
+tenocyte						
+teratocarcinoma cell line	teratocarcinoma	exactMatch	teratocarcinoma	Doid:3305		
+testicular germ cell embryonal carcinoma cell line	Carcinoma ???	broader	testicular germ cell cancer	Doid:5557	embryonal carcinoma	Doid:3308
+testis, adult						
+thalamus, adult						
+throat, adult						
+throat, fetal						
+thymus, adult						
+thymus, fetal						
+thyroid carcinoma cell line	Carcinoma ???	exactMatch	thyroid gland carcinoma	Doid:3963		
+thyroid, adult						
+thyroid, fetal						
+tongue, adult						
+tongue, fetal						
+tonsil, adult						
+Trabecular Meshwork Cells						
+trachea, adult						
+trachea, fetal						
+Tracheal Epithelial Cells						
+transitional-cell carcinoma cell line	Carcinoma ???	exactMatch	transitional cell carcinoma	Doid:2671		
+tridermal teratoma cell line	teratoma	broader	teratoma	Doid:3307		
+tubular adenocarcinoma cell line	adenocarcinoma	exactMatch	tubular adenocarcinoma	Doid:4929		
+umbilical cord, fetal						
+Universal RNA - Human Normal Tissues Biochain						
+Urothelial Cells						
+uterus, adult						
+uterus, fetal						
+vagina, adult						
+vein, adult						
+Whole blood (ribopure)						
+Wilms' tumor cell line						
+xeroderma pigentosum b cell line						
