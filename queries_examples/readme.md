@@ -3,6 +3,7 @@
 In this section, we give examples of queries that can be run on the data-set we propose.
 Those queries were designed to answer biological questions and can be modified to better answer specific biological demands.
 
+### Standalone
 | Query | Purpose |
 |---|---|
 |find_tf.rq|Extract the tfs in the biological data graph (or any other entities)|
@@ -17,3 +18,10 @@ Those queries were designed to answer biological questions and can be modified t
 |Limit_to_healthCondition.rq| Get the names of the samples with a disease or health condition (non specific) associated and its name |
 |Limit_to_healthy_samples.rq| Get the names of the healthy samples |
 |Samples_specific_disease.rq| Get the names of the samples with a specific health condition associated|
+
+### Federated
+| Query | Purpose |
+|---|---|
+|query-samplesInAnatomicalLocation.rq | Retrieves the samples located in a part of the abdominal cavity|
+|query-samplesInCellType.rq | Retrieves the samples associated to a cell type from the connective tissue category|
+|query-samplesInDisease.rq  | Retrieves the samples associated to the carcinoma disease category|
