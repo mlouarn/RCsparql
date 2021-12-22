@@ -3,7 +3,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix oboinowl: <http://www.geneontology.org/formats/oboInOwl#> .
@@ -18,497 +17,497 @@
 GRAPH rcg:experimentalContext {
 
 
-rc:retroperitoneum skos:exactMatch fma:fma15080 .
+rc:retroperitoneum owl:equivalentClass fma:fma15080 .
 rc:retroperitoneum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma15080 ] .
 
-rc:breast skos:exactMatch fma:fma9601 .
+rc:breast owl:equivalentClass fma:fma9601 .
 rc:breast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9601 ] .
 
-rc:adipose_tissue skos:exactMatch fma:fma20110 .
+rc:adipose_tissue owl:equivalentClass fma:fma20110 .
 rc:adipose_tissue rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma20110 ] .
 
-rc:liver skos:exactMatch fma:fma7197 .
+rc:liver owl:equivalentClass fma:fma7197 .
 rc:liver rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7197 ] .
 
-rc:adrenal_gland skos:exactMatch fma:fma9604 .
+rc:adrenal_gland owl:equivalentClass fma:fma9604 .
 rc:adrenal_gland rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9604 ] .
 
-rc:amnion skos:exactMatch fma:fma80223 .
+rc:amnion owl:equivalentClass fma:fma80223 .
 rc:amnion rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma80223 ] .
 
-rc:spinal_cord skos:exactMatch fma:fma7647 .
+rc:spinal_cord owl:equivalentClass fma:fma7647 .
 rc:spinal_cord rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7647 ] .
 
-rc:brain skos:exactMatch fma:fma50801 .
+rc:brain owl:equivalentClass fma:fma50801 .
 rc:brain rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma50801 ] .
 
-rc:cerebellum skos:exactMatch fma:fma67944 .
+rc:cerebellum owl:equivalentClass fma:fma67944 .
 rc:cerebellum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma67944 ] .
 
-rc:cerebral_cortex skos:exactMatch fma:fma61830 .
+rc:cerebral_cortex owl:equivalentClass fma:fma61830 .
 rc:cerebral_cortex rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61830 ] .
 
-rc:blood skos:exactMatch fma:fma9670 .
+rc:blood owl:equivalentClass fma:fma9670 .
 rc:blood rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9670 ] .
 
-rc:aorta skos:exactMatch fma:fma3734 .
+rc:aorta owl:equivalentClass fma:fma3734 .
 rc:aorta rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma3734 ] .
 
-rc:capillary skos:exactMatch fma:fma63194 .
+rc:capillary owl:equivalentClass fma:fma63194 .
 rc:capillary rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63194 ] .
 
-rc:internal_thoracic_artery skos:exactMatch fma:fma3960 .
+rc:internal_thoracic_artery owl:equivalentClass fma:fma3960 .
 rc:internal_thoracic_artery rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma3960 ] .
 
-rc:umbilical_vein skos:exactMatch fma:fma70317 .
+rc:umbilical_vein owl:equivalentClass fma:fma70317 .
 rc:umbilical_vein rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70317 ] .
 
-rc:heart skos:exactMatch fma:fma7088 .
+rc:heart owl:equivalentClass fma:fma7088 .
 rc:heart rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7088 ] .
 
-rc:amygdala skos:exactMatch fma:fma61841 .
+rc:amygdala owl:equivalentClass fma:fma61841 .
 rc:amygdala rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61841 ] .
 
-rc:bladder skos:exactMatch fma:fma15900 .
+rc:bladder owl:equivalentClass fma:fma15900 .
 rc:bladder rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma15900 ] .
 
-rc:caudate_nucleus skos:exactMatch fma:fma61833 .
+rc:caudate_nucleus owl:equivalentClass fma:fma61833 .
 rc:caudate_nucleus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61833 ] .
 
-rc:colon skos:exactMatch fma:fma14543 .
+rc:colon owl:equivalentClass fma:fma14543 .
 rc:colon rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma14543 ] .
 
-rc:corpus_callosum skos:exactMatch fma:fma86464 .
+rc:corpus_callosum owl:equivalentClass fma:fma86464 .
 rc:corpus_callosum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma86464 ] .
 
-rc:diaphragm skos:exactMatch fma:fma13295 .
+rc:diaphragm owl:equivalentClass fma:fma13295 .
 rc:diaphragm rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma13295 ] .
 
-rc:diencephalon skos:exactMatch fma:fma62001 .
+rc:diencephalon owl:equivalentClass fma:fma62001 .
 rc:diencephalon rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62001 ] .
 
-rc:duodenum skos:exactMatch fma:fma7206 .
+rc:duodenum owl:equivalentClass fma:fma7206 .
 rc:duodenum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7206 ] .
 
-rc:dura_mater skos:exactMatch fma:fma9592 .
+rc:dura_mater owl:equivalentClass fma:fma9592 .
 rc:dura_mater rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9592 ] .
 
-rc:esophagus skos:exactMatch fma:fma7131 .
+rc:esophagus owl:equivalentClass fma:fma7131 .
 rc:esophagus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7131 ] .
 
-rc:eye skos:exactMatch fma:fma54448 .
+rc:eye owl:equivalentClass fma:fma54448 .
 rc:eye rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma54448 ] .
 
-rc:frontal_lobe skos:exactMatch fma:fma61824 .
+rc:frontal_lobe owl:equivalentClass fma:fma61824 .
 rc:frontal_lobe rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61824 ] .
 
-rc:globus_pallidus skos:exactMatch fma:fma61835 .
+rc:globus_pallidus owl:equivalentClass fma:fma61835 .
 rc:globus_pallidus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61835 ] .
 
-rc:hippocampus skos:exactMatch fma:fma275020 .
+rc:hippocampus owl:equivalentClass fma:fma275020 .
 rc:hippocampus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma275020 ] .
 
-rc:insula skos:exactMatch fma:fma67329 .
+rc:insula owl:equivalentClass fma:fma67329 .
 rc:insula rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma67329 ] .
 
-rc:kidney skos:exactMatch fma:fma7203 .
+rc:kidney owl:equivalentClass fma:fma7203 .
 rc:kidney rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7203 ] .
 
-rc:left_atrium skos:exactMatch fma:fma7097 .
+rc:left_atrium owl:equivalentClass fma:fma7097 .
 rc:left_atrium rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7097 ] .
 
-rc:left_ventricle skos:exactMatch fma:fma7101 .
+rc:left_ventricle owl:equivalentClass fma:fma7101 .
 rc:left_ventricle rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7101 ] .
 
-rc:locus_coeruleus skos:exactMatch fma:fma72478 .
+rc:locus_coeruleus owl:equivalentClass fma:fma72478 .
 rc:locus_coeruleus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma72478 ] .
 
-rc:lung skos:exactMatch fma:fma7195 .
+rc:lung owl:equivalentClass fma:fma7195 .
 rc:lung rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7195 ] .
 
-rc:lymph_node skos:exactMatch fma:fma5034 .
+rc:lymph_node owl:equivalentClass fma:fma5034 .
 rc:lymph_node rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma5034 ] .
 
-rc:medial_frontal_gyrus skos:exactMatch fma:fma273103 .
+rc:medial_frontal_gyrus owl:equivalentClass fma:fma273103 .
 rc:medial_frontal_gyrus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma273103 ] .
 
-rc:medulla_oblongata skos:exactMatch fma:fma62004 .
+rc:medulla_oblongata owl:equivalentClass fma:fma62004 .
 rc:medulla_oblongata rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62004 ] .
 
-rc:nucleus_accumbens skos:exactMatch fma:fma61889 .
+rc:nucleus_accumbens owl:equivalentClass fma:fma61889 .
 rc:nucleus_accumbens rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61889 ] .
 
-rc:occipital_cortex skos:exactMatch fma:fma67325 .
+rc:occipital_cortex owl:equivalentClass fma:fma67325 .
 rc:occipital_cortex rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma67325 ] .
 
-rc:occipital_lobe skos:exactMatch fma:fma67325 .
+rc:occipital_lobe owl:equivalentClass fma:fma67325 .
 rc:occipital_lobe rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma67325 ] .
 
-rc:occipital_pole skos:exactMatch fma:fma74892 .
+rc:occipital_pole owl:equivalentClass fma:fma74892 .
 rc:occipital_pole rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma74892 ] .
 
-rc:optic_nerve skos:exactMatch fma:fma50863 .
+rc:optic_nerve owl:equivalentClass fma:fma50863 .
 rc:optic_nerve rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma50863 ] .
 
-rc:ovary skos:exactMatch fma:fma7209 .
+rc:ovary owl:equivalentClass fma:fma7209 .
 rc:ovary rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7209 ] .
 
-rc:pancreas skos:exactMatch fma:fma7198 .
+rc:pancreas owl:equivalentClass fma:fma7198 .
 rc:pancreas rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7198 ] .
 
-rc:parietal_lobe skos:exactMatch fma:fma61826 .
+rc:parietal_lobe owl:equivalentClass fma:fma61826 .
 rc:parietal_lobe rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61826 ] .
 
-rc:pineal_gland skos:exactMatch fma:fma62033 .
+rc:pineal_gland owl:equivalentClass fma:fma62033 .
 rc:pineal_gland rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62033 ] .
 
-rc:pituitary_gland skos:exactMatch fma:fma13889 .
+rc:pituitary_gland owl:equivalentClass fma:fma13889 .
 rc:pituitary_gland rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma13889 ] .
 
-rc:placenta skos:exactMatch fma:fma63934 .
+rc:placenta owl:equivalentClass fma:fma63934 .
 rc:placenta rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63934 ] .
-rc:placenta skos:exactMatch fma:fma0329329 .
+rc:placenta owl:equivalentClass fma:fma0329329 .
 rc:placenta rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma0329329 ] .
 
-rc:pons skos:exactMatch fma:fma67943 .
+rc:pons owl:equivalentClass fma:fma67943 .
 rc:pons rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma67943 ] .
 
-rc:postcentral_gyrus skos:exactMatch fma:fma61896 .
+rc:postcentral_gyrus owl:equivalentClass fma:fma61896 .
 rc:postcentral_gyrus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61896 ] .
 
-rc:prostate skos:exactMatch fma:fma9600 .
+rc:prostate owl:equivalentClass fma:fma9600 .
 rc:prostate rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9600 ] .
 
-rc:putamen skos:exactMatch fma:fma61834 .
+rc:putamen owl:equivalentClass fma:fma61834 .
 rc:putamen rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61834 ] .
 
-rc:rectum skos:exactMatch fma:fma14544 .
+rc:rectum owl:equivalentClass fma:fma14544 .
 rc:rectum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma14544 ] .
 
-rc:retina skos:exactMatch fma:fma58301 .
+rc:retina owl:equivalentClass fma:fma58301 .
 rc:retina rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma58301 ] .
 
-rc:salivary_gland skos:exactMatch fma:fma9597 .
+rc:salivary_gland owl:equivalentClass fma:fma9597 .
 rc:salivary_gland rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9597 ] .
 
-rc:skeletal_muscle skos:exactMatch fma:fma0329248 .
+rc:skeletal_muscle owl:equivalentClass fma:fma0329248 .
 rc:skeletal_muscle rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma0329248 ] .
 
-rc:skin skos:exactMatch fma:fma7163 .
+rc:skin owl:equivalentClass fma:fma7163 .
 rc:skin rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7163 ] .
 
-rc:small_intestine skos:exactMatch fma:fma7200 .
+rc:small_intestine owl:equivalentClass fma:fma7200 .
 rc:small_intestine rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7200 ] .
 
-rc:spleen skos:exactMatch fma:fma7196 .
+rc:spleen owl:equivalentClass fma:fma7196 .
 rc:spleen rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7196 ] .
 
-rc:stomach skos:exactMatch fma:fma7148 .
+rc:stomach owl:equivalentClass fma:fma7148 .
 rc:stomach rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7148 ] .
 
-rc:substantia_nigra skos:exactMatch fma:fma67947 .
+rc:substantia_nigra owl:equivalentClass fma:fma67947 .
 rc:substantia_nigra rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma67947 ] .
 
-rc:temporal_lobe skos:exactMatch fma:fma61825 .
+rc:temporal_lobe owl:equivalentClass fma:fma61825 .
 rc:temporal_lobe rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61825 ] .
 
-rc:testis skos:exactMatch fma:fma7210 .
+rc:testis owl:equivalentClass fma:fma7210 .
 rc:testis rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7210 ] .
 
-rc:thalamus skos:exactMatch fma:fma62007 .
+rc:thalamus owl:equivalentClass fma:fma62007 .
 rc:thalamus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62007 ] .
 
-rc:throat skos:exactMatch fma:fma228738 .
+rc:throat owl:equivalentClass fma:fma228738 .
 rc:throat rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma228738 ] .
 
-rc:thymus skos:exactMatch fma:fma9607 .
+rc:thymus owl:equivalentClass fma:fma9607 .
 rc:thymus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9607 ] .
 
-rc:tongue skos:exactMatch fma:fma54640 .
+rc:tongue owl:equivalentClass fma:fma54640 .
 rc:tongue rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma54640 ] .
 
-rc:tonsil skos:exactMatch fma:fma9609 .
+rc:tonsil owl:equivalentClass fma:fma9609 .
 rc:tonsil rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9609 ] .
 
-rc:trachea skos:exactMatch fma:fma7394 .
+rc:trachea owl:equivalentClass fma:fma7394 .
 rc:trachea rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7394 ] .
 
-rc:umbilical_cord skos:exactMatch fma:fma85541 .
+rc:umbilical_cord owl:equivalentClass fma:fma85541 .
 rc:umbilical_cord rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma85541 ] .
 
-rc:uterus skos:exactMatch fma:fma17558 .
+rc:uterus owl:equivalentClass fma:fma17558 .
 rc:uterus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma17558 ] .
 
-rc:bile_duct skos:exactMatch fma:fma9706 .
+rc:bile_duct owl:equivalentClass fma:fma9706 .
 rc:bile_duct rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9706 ] .
 
-rc:gum skos:exactMatch fma:fma59762 .
+rc:gum owl:equivalentClass fma:fma59762 .
 rc:gum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma59762 ] .
 
-rc:nasal_cavity skos:exactMatch fma:fma54378 .
+rc:nasal_cavity owl:equivalentClass fma:fma54378 .
 rc:nasal_cavity rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma54378 ] .
 
-rc:choroid_plexus skos:exactMatch fma:fma61934 .
+rc:choroid_plexus owl:equivalentClass fma:fma61934 .
 rc:choroid_plexus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma61934 ] .
 
-rc:periodontal_ligament skos:exactMatch fma:fma56665 .
+rc:periodontal_ligament owl:equivalentClass fma:fma56665 .
 rc:periodontal_ligament rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma56665 ] .
 
-rc:pulmonary_artery skos:exactMatch fma:fma66326 .
+rc:pulmonary_artery owl:equivalentClass fma:fma66326 .
 rc:pulmonary_artery rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66326 ] .
 
-rc:mediastinum skos:exactMatch fma:fma9826 .
+rc:mediastinum owl:equivalentClass fma:fma9826 .
 rc:mediastinum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9826 ] .
 
-rc:hair_follicle skos:exactMatch fma:fma70660 .
+rc:hair_follicle owl:equivalentClass fma:fma70660 .
 rc:hair_follicle rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70660 ] .
 
-rc:meninges skos:exactMatch fma:fma231572 .
+rc:meninges owl:equivalentClass fma:fma231572 .
 rc:meninges rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma231572 ] .
 
-rc:bone_marrow skos:exactMatch fma:fma9608 .
+rc:bone_marrow owl:equivalentClass fma:fma9608 .
 rc:bone_marrow rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9608 ] .
 
-rc:mesothelium skos:exactMatch fma:fma14074 .
+rc:mesothelium owl:equivalentClass fma:fma14074 .
 rc:mesothelium rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma14074 ] .
 
-rc:pelvis skos:exactMatch fma:fma9578 .
+rc:pelvis owl:equivalentClass fma:fma9578 .
 rc:pelvis rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9578 ] .
 
-rc:bone skos:exactMatch fma:fma30317 .
+rc:bone owl:equivalentClass fma:fma30317 .
 rc:bone rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma30317 ] .
 
-rc:omentum skos:exactMatch fma:fma14650 .
+rc:omentum owl:equivalentClass fma:fma14650 .
 rc:omentum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma14650 ] .
 
-rc:parotid_gland skos:exactMatch fma:fma59790 .
+rc:parotid_gland owl:equivalentClass fma:fma59790 .
 rc:parotid_gland rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma59790 ] .
 
-rc:peripheral_nervous_system skos:exactMatch fma:fma9903 .
+rc:peripheral_nervous_system owl:equivalentClass fma:fma9903 .
 rc:peripheral_nervous_system rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9903 ] .
 
-rc:brachiocephalic_artery skos:exactMatch fma:fma3932 .
+rc:brachiocephalic_artery owl:equivalentClass fma:fma3932 .
 rc:brachiocephalic_artery rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma3932 ] .
 
-rc:carotid_artery skos:exactMatch fma:fma322007 .
+rc:carotid_artery owl:equivalentClass fma:fma322007 .
 rc:carotid_artery rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma322007 ] .
-rc:carotid_artery skos:exactMatch fma:fma3939 .
+rc:carotid_artery owl:equivalentClass fma:fma3939 .
 rc:carotid_artery rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma3939 ] .
 
-rc:coronary_artery skos:exactMatch fma:fma49893 .
+rc:coronary_artery owl:equivalentClass fma:fma49893 .
 rc:coronary_artery rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma49893 ] .
 
-rc:subclavian_artery skos:exactMatch fma:fma3951 .
+rc:subclavian_artery owl:equivalentClass fma:fma3951 .
 rc:subclavian_artery rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma3951 ] .
 
-rc:umbilical_artery skos:exactMatch fma:fma18820 .
+rc:umbilical_artery owl:equivalentClass fma:fma18820 .
 rc:umbilical_artery rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma18820 ] .
 
-rc:synovium skos:exactMatch fma:fma66762 .
+rc:synovium owl:equivalentClass fma:fma66762 .
 rc:synovium rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66762 ] .
 
-rc:tendon skos:exactMatch fma:fma9721 .
+rc:tendon owl:equivalentClass fma:fma9721 .
 rc:tendon rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9721 ] .
 
-rc:nasal_septum skos:exactMatch fma:fma54375 .
+rc:nasal_septum owl:equivalentClass fma:fma54375 .
 rc:nasal_septum rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma54375 ] .
 
-rc:endometrium skos:exactMatch fma:fma17742 .
+rc:endometrium owl:equivalentClass fma:fma17742 .
 rc:endometrium rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma17742 ] .
 
-rc:vulva skos:exactMatch fma:fma20462 .
+rc:vulva owl:equivalentClass fma:fma20462 .
 rc:vulva rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma20462 ] .
 
-rc:gall_bladder skos:exactMatch fma:fma7202 .
+rc:gall_bladder owl:equivalentClass fma:fma7202 .
 rc:gall_bladder rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7202 ] .
 
-rc:sinus skos:exactMatch fma:fma51235 .
+rc:sinus owl:equivalentClass fma:fma51235 .
 rc:sinus rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma51235 ] .
 
-rc:thorax skos:exactMatch fma:fma9576 .
+rc:thorax owl:equivalentClass fma:fma9576 .
 rc:thorax rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9576 ] .
 
-rc:palate skos:exactMatch fma:fma54549 .
+rc:palate owl:equivalentClass fma:fma54549 .
 rc:palate rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma54549 ] .
 
-rc:pharynx skos:exactMatch fma:fma46688 .
+rc:pharynx owl:equivalentClass fma:fma46688 .
 rc:pharynx rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma46688 ] .
 
-rc:neck skos:exactMatch fma:fma7155 .
+rc:neck owl:equivalentClass fma:fma7155 .
 rc:neck rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7155 ] .
 
-rc:intestine skos:exactMatch fma:fma7199 .
+rc:intestine owl:equivalentClass fma:fma7199 .
 rc:intestine rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma7199 ] .
 
-rc:connective_tissue skos:exactMatch fma:fma9640 .
+rc:connective_tissue owl:equivalentClass fma:fma9640 .
 rc:connective_tissue rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9640 ] .
 
-rc:chorion skos:exactMatch fma:fma80224 .
+rc:chorion owl:equivalentClass fma:fma80224 .
 rc:chorion rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma80224 ] .
 
-rc:adipocyte skos:exactMatch fma:fma63880 .
+rc:adipocyte owl:equivalentClass fma:fma63880 .
 rc:adipocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63880 ] .
 
-rc:astrocyte skos:exactMatch fma:fma54537 .
+rc:astrocyte owl:equivalentClass fma:fma54537 .
 rc:astrocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma54537 ] .
 
-rc:basophil skos:exactMatch fma:fma62862 .
+rc:basophil owl:equivalentClass fma:fma62862 .
 rc:basophil rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62862 ] .
 
-rc:cardiac_muscle_cell skos:exactMatch fma:fma14067 .
+rc:cardiac_muscle_cell owl:equivalentClass fma:fma14067 .
 rc:cardiac_muscle_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma14067 ] .
 
-rc:chondroblast skos:exactMatch fma:fma66783 .
+rc:chondroblast owl:equivalentClass fma:fma66783 .
 rc:chondroblast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66783 ] .
 
-rc:chondrocyte skos:exactMatch fma:fma66782 .
+rc:chondrocyte owl:equivalentClass fma:fma66782 .
 rc:chondrocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66782 ] .
 
-rc:clara_cell skos:exactMatch fma:fma14119 .
+rc:clara_cell owl:equivalentClass fma:fma14119 .
 rc:clara_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma14119 ] .
 
-rc:corneal_epithelial_cell skos:exactMatch fma:fma70551 .
+rc:corneal_epithelial_cell owl:equivalentClass fma:fma70551 .
 rc:corneal_epithelial_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70551 ] .
 
-rc:endothelial_cell skos:exactMatch fma:fma66772 .
+rc:endothelial_cell owl:equivalentClass fma:fma66772 .
 rc:endothelial_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66772 ] .
 
-rc:epithelial_cell skos:exactMatch fma:fma66768 .
+rc:epithelial_cell owl:equivalentClass fma:fma66768 .
 rc:epithelial_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66768 ] .
 
-rc:erythroblast skos:exactMatch fma:fma83504 .
+rc:erythroblast owl:equivalentClass fma:fma83504 .
 rc:erythroblast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma83504 ] .
 
-rc:fibroblast skos:exactMatch fma:fma63877 .
+rc:fibroblast owl:equivalentClass fma:fma63877 .
 rc:fibroblast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63877 ] .
 
-rc:glioblast skos:exactMatch fma:fma70564 .
+rc:glioblast owl:equivalentClass fma:fma70564 .
 rc:glioblast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70564 ] .
 
-rc:granulocyte skos:exactMatch fma:fma62854 .
+rc:granulocyte owl:equivalentClass fma:fma62854 .
 rc:granulocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62854 ] .
 
-rc:granulosa_cell skos:exactMatch fma:fma18718 .
+rc:granulosa_cell owl:equivalentClass fma:fma18718 .
 rc:granulosa_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma18718 ] .
 
-rc:hepatocyte skos:exactMatch fma:fma14515 .
+rc:hepatocyte owl:equivalentClass fma:fma14515 .
 rc:hepatocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma14515 ] .
 
-rc:keratinocyte skos:exactMatch fma:fma62879 .
+rc:keratinocyte owl:equivalentClass fma:fma62879 .
 rc:keratinocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62879 ] .
 
-rc:keratocyte skos:exactMatch fma:fma0326141 .
+rc:keratocyte owl:equivalentClass fma:fma0326141 .
 rc:keratocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma0326141 ] .
 
-rc:langerhans_cell skos:exactMatch fma:fma63072 .
+rc:langerhans_cell owl:equivalentClass fma:fma63072 .
 rc:langerhans_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63072 ] .
 
-rc:lens_epithelial_cell skos:exactMatch fma:fma67559 .
+rc:lens_epithelial_cell owl:equivalentClass fma:fma67559 .
 rc:lens_epithelial_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma67559 ] .
 
-rc:lymphocyte skos:exactMatch fma:fma62863 .
+rc:lymphocyte owl:equivalentClass fma:fma62863 .
 rc:lymphocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62863 ] .
 
-rc:lymphoid_cell skos:exactMatch fma:fma84065 .
+rc:lymphoid_cell owl:equivalentClass fma:fma84065 .
 rc:lymphoid_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma84065 ] .
 
-rc:macrophage skos:exactMatch fma:fma63261 .
+rc:macrophage owl:equivalentClass fma:fma63261 .
 rc:macrophage rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63261 ] .
 
-rc:mast_cell skos:exactMatch fma:fma66784 .
+rc:mast_cell owl:equivalentClass fma:fma66784 .
 rc:mast_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66784 ] .
 
-rc:megakaryoblast skos:exactMatch fma:fma84235 .
+rc:megakaryoblast owl:equivalentClass fma:fma84235 .
 rc:megakaryoblast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma84235 ] .
 
-rc:melanocyte skos:exactMatch fma:fma70545 .
+rc:melanocyte owl:equivalentClass fma:fma70545 .
 rc:melanocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70545 ] .
 
-rc:merkel_cell skos:exactMatch fma:fma70548 .
+rc:merkel_cell owl:equivalentClass fma:fma70548 .
 rc:merkel_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70548 ] .
 
-rc:mesenchymal_stem_cell skos:exactMatch fma:fma0326143 .
+rc:mesenchymal_stem_cell owl:equivalentClass fma:fma0326143 .
 rc:mesenchymal_stem_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma0326143 ] .
 
-rc:mesothelial_cell skos:exactMatch fma:fma66773 .
+rc:mesothelial_cell owl:equivalentClass fma:fma66773 .
 rc:mesothelial_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66773 ] .
 
-rc:monoblast skos:exactMatch fma:fma83553 .
+rc:monoblast owl:equivalentClass fma:fma83553 .
 rc:monoblast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma83553 ] .
 
-rc:monocyte skos:exactMatch fma:fma62864 .
+rc:monocyte owl:equivalentClass fma:fma62864 .
 rc:monocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62864 ] .
 
-rc:myeloid_cell skos:exactMatch fma:fma70339 .
+rc:myeloid_cell owl:equivalentClass fma:fma70339 .
 rc:myeloid_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70339 ] .
 
-rc:natural_killer_cell skos:exactMatch fma:fma63147 .
+rc:natural_killer_cell owl:equivalentClass fma:fma63147 .
 rc:natural_killer_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63147 ] .
 
-rc:neural_stem_cell skos:exactMatch fma:fma86684 .
+rc:neural_stem_cell owl:equivalentClass fma:fma86684 .
 rc:neural_stem_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma86684 ] .
 
-rc:neuroblast skos:exactMatch fma:fma70563 .
+rc:neuroblast owl:equivalentClass fma:fma70563 .
 rc:neuroblast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70563 ] .
 
-rc:neuroendocrine_cell skos:exactMatch fma:fma83810 .
+rc:neuroendocrine_cell owl:equivalentClass fma:fma83810 .
 rc:neuroendocrine_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma83810 ] .
 
-rc:neuron skos:exactMatch fma:fma54527 .
+rc:neuron owl:equivalentClass fma:fma54527 .
 rc:neuron rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma54527 ] .
 
-rc:neutrophil skos:exactMatch fma:fma62860 .
+rc:neutrophil owl:equivalentClass fma:fma62860 .
 rc:neutrophil rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62860 ] .
 
-rc:osteoblast skos:exactMatch fma:fma66780 .
+rc:osteoblast owl:equivalentClass fma:fma66780 .
 rc:osteoblast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66780 ] .
 
-rc:osteoclast skos:exactMatch fma:fma66781 .
+rc:osteoclast owl:equivalentClass fma:fma66781 .
 rc:osteoclast rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66781 ] .
 
-rc:osteocyte skos:exactMatch fma:fma66779 .
+rc:osteocyte owl:equivalentClass fma:fma66779 .
 rc:osteocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66779 ] .
 
-rc:pancreatic_delta_cell skos:exactMatch fma:fma70587 .
+rc:pancreatic_delta_cell owl:equivalentClass fma:fma70587 .
 rc:pancreatic_delta_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70587 ] .
 
-rc:pericyte skos:exactMatch fma:fma63174 .
+rc:pericyte owl:equivalentClass fma:fma63174 .
 rc:pericyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63174 ] .
 
-rc:plasma_cell skos:exactMatch fma:fma70574 .
+rc:plasma_cell owl:equivalentClass fma:fma70574 .
 rc:plasma_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma70574 ] .
 
-rc:pneumocyte skos:exactMatch fma:fma62499 .
+rc:pneumocyte owl:equivalentClass fma:fma62499 .
 rc:pneumocyte rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62499 ] .
 
-rc:retinal_pigment_epithelial_cell skos:exactMatch fma:fma75802 .
+rc:retinal_pigment_epithelial_cell owl:equivalentClass fma:fma75802 .
 rc:retinal_pigment_epithelial_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma75802 ] .
 
-rc:schwann_cell skos:exactMatch fma:fma62121 .
+rc:schwann_cell owl:equivalentClass fma:fma62121 .
 rc:schwann_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma62121 ] .
 
-rc:sertoli_cell skos:exactMatch fma:fma72298 .
+rc:sertoli_cell owl:equivalentClass fma:fma72298 .
 rc:sertoli_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma72298 ] .
 
-rc:skeletal_muscle_cell skos:exactMatch fma:fma9727 .
+rc:skeletal_muscle_cell owl:equivalentClass fma:fma9727 .
 rc:skeletal_muscle_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma9727 ] .
 
-rc:smooth_muscle_cell skos:exactMatch fma:fma14072 .
+rc:smooth_muscle_cell owl:equivalentClass fma:fma14072 .
 rc:smooth_muscle_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma14072 ] .
 
-rc:stem_cell skos:exactMatch fma:fma63368 .
+rc:stem_cell owl:equivalentClass fma:fma63368 .
 rc:stem_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma63368 ] .
 
-rc:stromal_cell skos:exactMatch fma:fma83624 .
+rc:stromal_cell owl:equivalentClass fma:fma83624 .
 rc:stromal_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma83624 ] .
 
-rc:synovial_cell skos:exactMatch fma:fma66786 .
+rc:synovial_cell owl:equivalentClass fma:fma66786 .
 rc:synovial_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma66786 ] .
 
-rc:trophoblast_cell skos:exactMatch fma:fma83028 .
+rc:trophoblast_cell owl:equivalentClass fma:fma83028 .
 rc:trophoblast_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma83028 ] .
 
-rc:urothelial_cell skos:exactMatch fma:fma84127 .
+rc:urothelial_cell owl:equivalentClass fma:fma84127 .
 rc:urothelial_cell rco:xref [ rco:xrefSource <http://purl.org/sig/ont/fma.owl> ; rco:xrefIdent fma:fma84127 ] .
 
 }
