@@ -25,3 +25,13 @@ Those queries were designed to answer biological questions and can be modified t
 |query-samplesInAnatomicalLocation.rq | Retrieves the samples located in a part of the abdominal cavity|
 |query-samplesInCellType.rq | Retrieves the samples associated to a cell type from the connective tissue category|
 |query-samplesInDisease.rq  | Retrieves the samples associated to the carcinoma disease category|
+
+Federated query: samples located in a part of the abdominal cavity (file `query-samplesInAnatomicalLocation.rq`)
+![Federated query: samples located in a part of the abdominal cavity](figures/query-samplesInAnatomicalLocation.png "Federated query: samples located in a part of the abdominal cavity")
+
+Federated query: samples associated to a cell type from the connective tissue category (file `query-samplesInCellType.rq`)
+![Federated query: samples associated to a cell type from the connective tissue category](figures/query-samplesInCellType.png "Federated query: samples associated to a cell type from the connective tissue category")
+
+Federated query: samples associated to the carcinoma disease category (file `query-samplesInDisease.rq`)
+![Federated query: samples associated to the carcinoma disease category](figures/query-samplesInDisease.png "Federated query: samples associated to the carcinoma disease category")
+
